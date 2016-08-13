@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCDDD99E1D336C9F00F868C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDDD99D1D336C9F00F868C4 /* main.m */; };
+		BCDDD9A11D336C9F00F868C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDDD9A01D336C9F00F868C4 /* AppDelegate.m */; };
+		BCDDD9A41D336C9F00F868C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDDD9A31D336C9F00F868C4 /* ViewController.m */; };
+		BCDDD9A71D336CA000F868C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCDDD9A51D336C9F00F868C4 /* Main.storyboard */; };
+		BCDDD9A91D336CA000F868C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCDDD9A81D336CA000F868C4 /* Assets.xcassets */; };
+		BCDDD9AC1D336CA000F868C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCDDD9AA1D336CA000F868C4 /* LaunchScreen.storyboard */; };
+		BCDDD9B71D336CA000F868C4 /* UI_01_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDDD9B61D336CA000F868C4 /* UI_01_______Tests.m */; };
+		BCDDD9C21D336CA000F868C4 /* UI_01_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDDD9C11D336CA000F868C4 /* UI_01_______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCDDD9B31D336CA000F868C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCDDD9911D336C9F00F868C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCDDD9981D336C9F00F868C4;
+			remoteInfo = "UI-01-修改文字颜色";
+		};
+		BCDDD9BE1D336CA000F868C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCDDD9911D336C9F00F868C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCDDD9981D336C9F00F868C4;
+			remoteInfo = "UI-01-修改文字颜色";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCDDD9991D336C9F00F868C4 /* UI-01-修改文字颜色.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI-01-修改文字颜色.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCDDD99D1D336C9F00F868C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCDDD99F1D336C9F00F868C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCDDD9A01D336C9F00F868C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCDDD9A21D336C9F00F868C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCDDD9A31D336C9F00F868C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCDDD9A61D336C9F00F868C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCDDD9A81D336CA000F868C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCDDD9AB1D336CA000F868C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCDDD9AD1D336CA000F868C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCDDD9B21D336CA000F868C4 /* UI-01-修改文字颜色Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI-01-修改文字颜色Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCDDD9B61D336CA000F868C4 /* UI_01_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI_01_______Tests.m"; sourceTree = "<group>"; };
+		BCDDD9B81D336CA000F868C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCDDD9BD1D336CA000F868C4 /* UI-01-修改文字颜色UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI-01-修改文字颜色UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCDDD9C11D336CA000F868C4 /* UI_01_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI_01_______UITests.m"; sourceTree = "<group>"; };
+		BCDDD9C31D336CA000F868C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCDDD9961D336C9F00F868C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCDDD9AF1D336CA000F868C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCDDD9BA1D336CA000F868C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCDDD9901D336C9F00F868C4 = {
+			isa = PBXGroup;
+			children = (
+				BCDDD99B1D336C9F00F868C4 /* UI-01-修改文字颜色 */,
+				BCDDD9B51D336CA000F868C4 /* UI-01-修改文字颜色Tests */,
+				BCDDD9C01D336CA000F868C4 /* UI-01-修改文字颜色UITests */,
+				BCDDD99A1D336C9F00F868C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCDDD99A1D336C9F00F868C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCDDD9991D336C9F00F868C4 /* UI-01-修改文字颜色.app */,
+				BCDDD9B21D336CA000F868C4 /* UI-01-修改文字颜色Tests.xctest */,
+				BCDDD9BD1D336CA000F868C4 /* UI-01-修改文字颜色UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCDDD99B1D336C9F00F868C4 /* UI-01-修改文字颜色 */ = {
+			isa = PBXGroup;
+			children = (
+				BCDDD99F1D336C9F00F868C4 /* AppDelegate.h */,
+				BCDDD9A01D336C9F00F868C4 /* AppDelegate.m */,
+				BCDDD9A21D336C9F00F868C4 /* ViewController.h */,
+				BCDDD9A31D336C9F00F868C4 /* ViewController.m */,
+				BCDDD9A51D336C9F00F868C4 /* Main.storyboard */,
+				BCDDD9A81D336CA000F868C4 /* Assets.xcassets */,
+				BCDDD9AA1D336CA000F868C4 /* LaunchScreen.storyboard */,
+				BCDDD9AD1D336CA000F868C4 /* Info.plist */,
+				BCDDD99C1D336C9F00F868C4 /* Supporting Files */,
+			);
+			path = "UI-01-修改文字颜色";
+			sourceTree = "<group>";
+		};
+		BCDDD99C1D336C9F00F868C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCDDD99D1D336C9F00F868C4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCDDD9B51D336CA000F868C4 /* UI-01-修改文字颜色Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BCDDD9B61D336CA000F868C4 /* UI_01_______Tests.m */,
+				BCDDD9B81D336CA000F868C4 /* Info.plist */,
+			);
+			path = "UI-01-修改文字颜色Tests";
+			sourceTree = "<group>";
+		};
+		BCDDD9C01D336CA000F868C4 /* UI-01-修改文字颜色UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCDDD9C11D336CA000F868C4 /* UI_01_______UITests.m */,
+				BCDDD9C31D336CA000F868C4 /* Info.plist */,
+			);
+			path = "UI-01-修改文字颜色UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCDDD9981D336C9F00F868C4 /* UI-01-修改文字颜色 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCDDD9C61D336CA000F868C4 /* Build configuration list for PBXNativeTarget "UI-01-修改文字颜色" */;
+			buildPhases = (
+				BCDDD9951D336C9F00F868C4 /* Sources */,
+				BCDDD9961D336C9F00F868C4 /* Frameworks */,
+				BCDDD9971D336C9F00F868C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UI-01-修改文字颜色";
+			productName = "UI-01-修改文字颜色";
+			productReference = BCDDD9991D336C9F00F868C4 /* UI-01-修改文字颜色.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCDDD9B11D336CA000F868C4 /* UI-01-修改文字颜色Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCDDD9C91D336CA000F868C4 /* Build configuration list for PBXNativeTarget "UI-01-修改文字颜色Tests" */;
+			buildPhases = (
+				BCDDD9AE1D336CA000F868C4 /* Sources */,
+				BCDDD9AF1D336CA000F868C4 /* Frameworks */,
+				BCDDD9B01D336CA000F868C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCDDD9B41D336CA000F868C4 /* PBXTargetDependency */,
+			);
+			name = "UI-01-修改文字颜色Tests";
+			productName = "UI-01-修改文字颜色Tests";
+			productReference = BCDDD9B21D336CA000F868C4 /* UI-01-修改文字颜色Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCDDD9BC1D336CA000F868C4 /* UI-01-修改文字颜色UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCDDD9CC1D336CA000F868C4 /* Build configuration list for PBXNativeTarget "UI-01-修改文字颜色UITests" */;
+			buildPhases = (
+				BCDDD9B91D336CA000F868C4 /* Sources */,
+				BCDDD9BA1D336CA000F868C4 /* Frameworks */,
+				BCDDD9BB1D336CA000F868C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCDDD9BF1D336CA000F868C4 /* PBXTargetDependency */,
+			);
+			name = "UI-01-修改文字颜色UITests";
+			productName = "UI-01-修改文字颜色UITests";
+			productReference = BCDDD9BD1D336CA000F868C4 /* UI-01-修改文字颜色UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCDDD9911D336C9F00F868C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = liser;
+				TargetAttributes = {
+					BCDDD9981D336C9F00F868C4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BCDDD9B11D336CA000F868C4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BCDDD9981D336C9F00F868C4;
+					};
+					BCDDD9BC1D336CA000F868C4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BCDDD9981D336C9F00F868C4;
+					};
+				};
+			};
+			buildConfigurationList = BCDDD9941D336C9F00F868C4 /* Build configuration list for PBXProject "UI-01-修改文字颜色" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCDDD9901D336C9F00F868C4;
+			productRefGroup = BCDDD99A1D336C9F00F868C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCDDD9981D336C9F00F868C4 /* UI-01-修改文字颜色 */,
+				BCDDD9B11D336CA000F868C4 /* UI-01-修改文字颜色Tests */,
+				BCDDD9BC1D336CA000F868C4 /* UI-01-修改文字颜色UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCDDD9971D336C9F00F868C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDDD9AC1D336CA000F868C4 /* LaunchScreen.storyboard in Resources */,
+				BCDDD9A91D336CA000F868C4 /* Assets.xcassets in Resources */,
+				BCDDD9A71D336CA000F868C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCDDD9B01D336CA000F868C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCDDD9BB1D336CA000F868C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCDDD9951D336C9F00F868C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDDD9A41D336C9F00F868C4 /* ViewController.m in Sources */,
+				BCDDD9A11D336C9F00F868C4 /* AppDelegate.m in Sources */,
+				BCDDD99E1D336C9F00F868C4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCDDD9AE1D336CA000F868C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDDD9B71D336CA000F868C4 /* UI_01_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCDDD9B91D336CA000F868C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDDD9C21D336CA000F868C4 /* UI_01_______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCDDD9B41D336CA000F868C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCDDD9981D336C9F00F868C4 /* UI-01-修改文字颜色 */;
+			targetProxy = BCDDD9B31D336CA000F868C4 /* PBXContainerItemProxy */;
+		};
+		BCDDD9BF1D336CA000F868C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCDDD9981D336C9F00F868C4 /* UI-01-修改文字颜色 */;
+			targetProxy = BCDDD9BE1D336CA000F868C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCDDD9A51D336C9F00F868C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCDDD9A61D336C9F00F868C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCDDD9AA1D336CA000F868C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCDDD9AB1D336CA000F868C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCDDD9C41D336CA000F868C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCDDD9C51D336CA000F868C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCDDD9C71D336CA000F868C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UI-01-修改文字颜色/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI-01-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCDDD9C81D336CA000F868C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UI-01-修改文字颜色/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI-01-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCDDD9CA1D336CA000F868C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI-01-修改文字颜色Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI-01-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI-01-修改文字颜色.app/UI-01-修改文字颜色";
+			};
+			name = Debug;
+		};
+		BCDDD9CB1D336CA000F868C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI-01-修改文字颜色Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI-01-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI-01-修改文字颜色.app/UI-01-修改文字颜色";
+			};
+			name = Release;
+		};
+		BCDDD9CD1D336CA000F868C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI-01-修改文字颜色UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI-01-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI-01-修改文字颜色";
+			};
+			name = Debug;
+		};
+		BCDDD9CE1D336CA000F868C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI-01-修改文字颜色UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI-01-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI-01-修改文字颜色";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCDDD9941D336C9F00F868C4 /* Build configuration list for PBXProject "UI-01-修改文字颜色" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCDDD9C41D336CA000F868C4 /* Debug */,
+				BCDDD9C51D336CA000F868C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCDDD9C61D336CA000F868C4 /* Build configuration list for PBXNativeTarget "UI-01-修改文字颜色" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCDDD9C71D336CA000F868C4 /* Debug */,
+				BCDDD9C81D336CA000F868C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCDDD9C91D336CA000F868C4 /* Build configuration list for PBXNativeTarget "UI-01-修改文字颜色Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCDDD9CA1D336CA000F868C4 /* Debug */,
+				BCDDD9CB1D336CA000F868C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCDDD9CC1D336CA000F868C4 /* Build configuration list for PBXNativeTarget "UI-01-修改文字颜色UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCDDD9CD1D336CA000F868C4 /* Debug */,
+				BCDDD9CE1D336CA000F868C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCDDD9911D336C9F00F868C4 /* Project object */;
+}
