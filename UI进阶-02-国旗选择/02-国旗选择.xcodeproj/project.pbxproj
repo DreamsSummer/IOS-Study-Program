@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC408B091D684EB600EF278B /* XJFlagView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC408B081D684EB600EF278B /* XJFlagView.m */; };
+		BC408B0B1D684EC500EF278B /* XJFlagView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC408B0A1D684EC500EF278B /* XJFlagView.xib */; };
+		BCF61E201D6842CD008347FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF61E1F1D6842CD008347FF /* main.m */; };
+		BCF61E231D6842CD008347FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF61E221D6842CD008347FF /* AppDelegate.m */; };
+		BCF61E261D6842CD008347FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF61E251D6842CD008347FF /* ViewController.m */; };
+		BCF61E291D6842CD008347FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF61E271D6842CD008347FF /* Main.storyboard */; };
+		BCF61E2B1D6842CD008347FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF61E2A1D6842CD008347FF /* Assets.xcassets */; };
+		BCF61E2E1D6842CD008347FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF61E2C1D6842CD008347FF /* LaunchScreen.storyboard */; };
+		BCF61E391D6842CD008347FF /* _2_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF61E381D6842CD008347FF /* _2_____Tests.m */; };
+		BCF61E441D6842CD008347FF /* _2_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF61E431D6842CD008347FF /* _2_____UITests.m */; };
+		BCF61E521D684959008347FF /* flags.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCF61E511D684959008347FF /* flags.plist */; };
+		BCF61E621D6849B6008347FF /* agt.gif in Resources */ = {isa = PBXBuildFile; fileRef = BCF61E541D6849B6008347FF /* agt.gif */; };
+		BCF61E631D6849B6008347FF /* baxi.gif in Resources */ = {isa = PBXBuildFile; fileRef = BCF61E551D6849B6008347FF /* baxi.gif */; };
+		BCF61E641D6849B6008347FF /* deguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = BCF61E561D6849B6008347FF /* deguo.gif */; };
+		BCF61E651D6849B6008347FF /* faguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = BCF61E571D6849B6008347FF /* faguo.gif */; };
+		BCF61E661D6849B6008347FF /* hanguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = BCF61E581D6849B6008347FF /* hanguo.gif */; };
+		BCF61E671D6849B6008347FF /* helan.gif in Resources */ = {isa = PBXBuildFile; fileRef = BCF61E591D6849B6008347FF /* helan.gif */; };
+		BCF61E681D6849B6008347FF /* putaoya.gif in Resources */ = {isa = PBXBuildFile; fileRef = BCF61E5A1D6849B6008347FF /* putaoya.gif */; };
+		BCF61E691D6849B6008347FF /* ruidian.gif in Resources */ = {isa = PBXBuildFile; fileRef = BCF61E5B1D6849B6008347FF /* ruidian.gif */; };
+		BCF61E6A1D6849B6008347FF /* ruishi.gif in Resources */ = {isa = PBXBuildFile; fileRef = BCF61E5C1D6849B6008347FF /* ruishi.gif */; };
+		BCF61E6B1D6849B6008347FF /* wlgui.gif in Resources */ = {isa = PBXBuildFile; fileRef = BCF61E5D1D6849B6008347FF /* wlgui.gif */; };
+		BCF61E6C1D6849B6008347FF /* xiby.gif in Resources */ = {isa = PBXBuildFile; fileRef = BCF61E5E1D6849B6008347FF /* xiby.gif */; };
+		BCF61E6D1D6849B6008347FF /* ydl.gif in Resources */ = {isa = PBXBuildFile; fileRef = BCF61E5F1D6849B6008347FF /* ydl.gif */; };
+		BCF61E6E1D6849B6008347FF /* ying.gif in Resources */ = {isa = PBXBuildFile; fileRef = BCF61E601D6849B6008347FF /* ying.gif */; };
+		BCF61E6F1D6849B6008347FF /* zhongguo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCF61E611D6849B6008347FF /* zhongguo.jpg */; };
+		BCF61E721D684A04008347FF /* XJFlag.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF61E711D684A04008347FF /* XJFlag.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCF61E351D6842CD008347FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCF61E131D6842CD008347FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF61E1A1D6842CD008347FF;
+			remoteInfo = "02-国旗选择";
+		};
+		BCF61E401D6842CD008347FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCF61E131D6842CD008347FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF61E1A1D6842CD008347FF;
+			remoteInfo = "02-国旗选择";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC408B071D684EB600EF278B /* XJFlagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJFlagView.h; sourceTree = "<group>"; };
+		BC408B081D684EB600EF278B /* XJFlagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJFlagView.m; sourceTree = "<group>"; };
+		BC408B0A1D684EC500EF278B /* XJFlagView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XJFlagView.xib; sourceTree = "<group>"; };
+		BCF61E1B1D6842CD008347FF /* 02-国旗选择.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-国旗选择.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF61E1F1D6842CD008347FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCF61E211D6842CD008347FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCF61E221D6842CD008347FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCF61E241D6842CD008347FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCF61E251D6842CD008347FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCF61E281D6842CD008347FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCF61E2A1D6842CD008347FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCF61E2D1D6842CD008347FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCF61E2F1D6842CD008347FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF61E341D6842CD008347FF /* 02-国旗选择Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-国旗选择Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF61E381D6842CD008347FF /* _2_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2_____Tests.m"; sourceTree = "<group>"; };
+		BCF61E3A1D6842CD008347FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF61E3F1D6842CD008347FF /* 02-国旗选择UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-国旗选择UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF61E431D6842CD008347FF /* _2_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2_____UITests.m"; sourceTree = "<group>"; };
+		BCF61E451D6842CD008347FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF61E511D684959008347FF /* flags.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = flags.plist; sourceTree = "<group>"; };
+		BCF61E541D6849B6008347FF /* agt.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = agt.gif; sourceTree = "<group>"; };
+		BCF61E551D6849B6008347FF /* baxi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = baxi.gif; sourceTree = "<group>"; };
+		BCF61E561D6849B6008347FF /* deguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = deguo.gif; sourceTree = "<group>"; };
+		BCF61E571D6849B6008347FF /* faguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = faguo.gif; sourceTree = "<group>"; };
+		BCF61E581D6849B6008347FF /* hanguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hanguo.gif; sourceTree = "<group>"; };
+		BCF61E591D6849B6008347FF /* helan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = helan.gif; sourceTree = "<group>"; };
+		BCF61E5A1D6849B6008347FF /* putaoya.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = putaoya.gif; sourceTree = "<group>"; };
+		BCF61E5B1D6849B6008347FF /* ruidian.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ruidian.gif; sourceTree = "<group>"; };
+		BCF61E5C1D6849B6008347FF /* ruishi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ruishi.gif; sourceTree = "<group>"; };
+		BCF61E5D1D6849B6008347FF /* wlgui.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wlgui.gif; sourceTree = "<group>"; };
+		BCF61E5E1D6849B6008347FF /* xiby.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xiby.gif; sourceTree = "<group>"; };
+		BCF61E5F1D6849B6008347FF /* ydl.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ydl.gif; sourceTree = "<group>"; };
+		BCF61E601D6849B6008347FF /* ying.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ying.gif; sourceTree = "<group>"; };
+		BCF61E611D6849B6008347FF /* zhongguo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhongguo.jpg; sourceTree = "<group>"; };
+		BCF61E701D684A04008347FF /* XJFlag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJFlag.h; sourceTree = "<group>"; };
+		BCF61E711D684A04008347FF /* XJFlag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJFlag.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCF61E181D6842CD008347FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF61E311D6842CD008347FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF61E3C1D6842CD008347FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCF61E121D6842CD008347FF = {
+			isa = PBXGroup;
+			children = (
+				BCF61E1D1D6842CD008347FF /* 02-国旗选择 */,
+				BCF61E371D6842CD008347FF /* 02-国旗选择Tests */,
+				BCF61E421D6842CD008347FF /* 02-国旗选择UITests */,
+				BCF61E1C1D6842CD008347FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCF61E1C1D6842CD008347FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCF61E1B1D6842CD008347FF /* 02-国旗选择.app */,
+				BCF61E341D6842CD008347FF /* 02-国旗选择Tests.xctest */,
+				BCF61E3F1D6842CD008347FF /* 02-国旗选择UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCF61E1D1D6842CD008347FF /* 02-国旗选择 */ = {
+			isa = PBXGroup;
+			children = (
+				BCF61E211D6842CD008347FF /* AppDelegate.h */,
+				BCF61E221D6842CD008347FF /* AppDelegate.m */,
+				BCF61E241D6842CD008347FF /* ViewController.h */,
+				BCF61E251D6842CD008347FF /* ViewController.m */,
+				BC408B071D684EB600EF278B /* XJFlagView.h */,
+				BC408B081D684EB600EF278B /* XJFlagView.m */,
+				BC408B0A1D684EC500EF278B /* XJFlagView.xib */,
+				BCF61E701D684A04008347FF /* XJFlag.h */,
+				BCF61E711D684A04008347FF /* XJFlag.m */,
+				BCF61E1E1D6842CD008347FF /* Supporting Files */,
+			);
+			path = "02-国旗选择";
+			sourceTree = "<group>";
+		};
+		BCF61E1E1D6842CD008347FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCF61E271D6842CD008347FF /* Main.storyboard */,
+				BCF61E2A1D6842CD008347FF /* Assets.xcassets */,
+				BCF61E2C1D6842CD008347FF /* LaunchScreen.storyboard */,
+				BCF61E2F1D6842CD008347FF /* Info.plist */,
+				BCF61E531D6849B6008347FF /* guoqi */,
+				BCF61E511D684959008347FF /* flags.plist */,
+				BCF61E1F1D6842CD008347FF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCF61E371D6842CD008347FF /* 02-国旗选择Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BCF61E381D6842CD008347FF /* _2_____Tests.m */,
+				BCF61E3A1D6842CD008347FF /* Info.plist */,
+			);
+			path = "02-国旗选择Tests";
+			sourceTree = "<group>";
+		};
+		BCF61E421D6842CD008347FF /* 02-国旗选择UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCF61E431D6842CD008347FF /* _2_____UITests.m */,
+				BCF61E451D6842CD008347FF /* Info.plist */,
+			);
+			path = "02-国旗选择UITests";
+			sourceTree = "<group>";
+		};
+		BCF61E531D6849B6008347FF /* guoqi */ = {
+			isa = PBXGroup;
+			children = (
+				BCF61E541D6849B6008347FF /* agt.gif */,
+				BCF61E551D6849B6008347FF /* baxi.gif */,
+				BCF61E561D6849B6008347FF /* deguo.gif */,
+				BCF61E571D6849B6008347FF /* faguo.gif */,
+				BCF61E581D6849B6008347FF /* hanguo.gif */,
+				BCF61E591D6849B6008347FF /* helan.gif */,
+				BCF61E5A1D6849B6008347FF /* putaoya.gif */,
+				BCF61E5B1D6849B6008347FF /* ruidian.gif */,
+				BCF61E5C1D6849B6008347FF /* ruishi.gif */,
+				BCF61E5D1D6849B6008347FF /* wlgui.gif */,
+				BCF61E5E1D6849B6008347FF /* xiby.gif */,
+				BCF61E5F1D6849B6008347FF /* ydl.gif */,
+				BCF61E601D6849B6008347FF /* ying.gif */,
+				BCF61E611D6849B6008347FF /* zhongguo.jpg */,
+			);
+			path = guoqi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCF61E1A1D6842CD008347FF /* 02-国旗选择 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF61E481D6842CD008347FF /* Build configuration list for PBXNativeTarget "02-国旗选择" */;
+			buildPhases = (
+				BCF61E171D6842CD008347FF /* Sources */,
+				BCF61E181D6842CD008347FF /* Frameworks */,
+				BCF61E191D6842CD008347FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-国旗选择";
+			productName = "02-国旗选择";
+			productReference = BCF61E1B1D6842CD008347FF /* 02-国旗选择.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCF61E331D6842CD008347FF /* 02-国旗选择Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF61E4B1D6842CD008347FF /* Build configuration list for PBXNativeTarget "02-国旗选择Tests" */;
+			buildPhases = (
+				BCF61E301D6842CD008347FF /* Sources */,
+				BCF61E311D6842CD008347FF /* Frameworks */,
+				BCF61E321D6842CD008347FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCF61E361D6842CD008347FF /* PBXTargetDependency */,
+			);
+			name = "02-国旗选择Tests";
+			productName = "02-国旗选择Tests";
+			productReference = BCF61E341D6842CD008347FF /* 02-国旗选择Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCF61E3E1D6842CD008347FF /* 02-国旗选择UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF61E4E1D6842CD008347FF /* Build configuration list for PBXNativeTarget "02-国旗选择UITests" */;
+			buildPhases = (
+				BCF61E3B1D6842CD008347FF /* Sources */,
+				BCF61E3C1D6842CD008347FF /* Frameworks */,
+				BCF61E3D1D6842CD008347FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCF61E411D6842CD008347FF /* PBXTargetDependency */,
+			);
+			name = "02-国旗选择UITests";
+			productName = "02-国旗选择UITests";
+			productReference = BCF61E3F1D6842CD008347FF /* 02-国旗选择UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCF61E131D6842CD008347FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XJ;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = liser;
+				TargetAttributes = {
+					BCF61E1A1D6842CD008347FF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BCF61E331D6842CD008347FF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BCF61E1A1D6842CD008347FF;
+					};
+					BCF61E3E1D6842CD008347FF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BCF61E1A1D6842CD008347FF;
+					};
+				};
+			};
+			buildConfigurationList = BCF61E161D6842CD008347FF /* Build configuration list for PBXProject "02-国旗选择" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCF61E121D6842CD008347FF;
+			productRefGroup = BCF61E1C1D6842CD008347FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCF61E1A1D6842CD008347FF /* 02-国旗选择 */,
+				BCF61E331D6842CD008347FF /* 02-国旗选择Tests */,
+				BCF61E3E1D6842CD008347FF /* 02-国旗选择UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCF61E191D6842CD008347FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF61E2E1D6842CD008347FF /* LaunchScreen.storyboard in Resources */,
+				BCF61E661D6849B6008347FF /* hanguo.gif in Resources */,
+				BCF61E2B1D6842CD008347FF /* Assets.xcassets in Resources */,
+				BCF61E671D6849B6008347FF /* helan.gif in Resources */,
+				BCF61E6D1D6849B6008347FF /* ydl.gif in Resources */,
+				BCF61E521D684959008347FF /* flags.plist in Resources */,
+				BCF61E621D6849B6008347FF /* agt.gif in Resources */,
+				BC408B0B1D684EC500EF278B /* XJFlagView.xib in Resources */,
+				BCF61E631D6849B6008347FF /* baxi.gif in Resources */,
+				BCF61E6F1D6849B6008347FF /* zhongguo.jpg in Resources */,
+				BCF61E6C1D6849B6008347FF /* xiby.gif in Resources */,
+				BCF61E6E1D6849B6008347FF /* ying.gif in Resources */,
+				BCF61E6B1D6849B6008347FF /* wlgui.gif in Resources */,
+				BCF61E681D6849B6008347FF /* putaoya.gif in Resources */,
+				BCF61E641D6849B6008347FF /* deguo.gif in Resources */,
+				BCF61E291D6842CD008347FF /* Main.storyboard in Resources */,
+				BCF61E651D6849B6008347FF /* faguo.gif in Resources */,
+				BCF61E6A1D6849B6008347FF /* ruishi.gif in Resources */,
+				BCF61E691D6849B6008347FF /* ruidian.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF61E321D6842CD008347FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF61E3D1D6842CD008347FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCF61E171D6842CD008347FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF61E261D6842CD008347FF /* ViewController.m in Sources */,
+				BCF61E231D6842CD008347FF /* AppDelegate.m in Sources */,
+				BCF61E201D6842CD008347FF /* main.m in Sources */,
+				BC408B091D684EB600EF278B /* XJFlagView.m in Sources */,
+				BCF61E721D684A04008347FF /* XJFlag.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF61E301D6842CD008347FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF61E391D6842CD008347FF /* _2_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF61E3B1D6842CD008347FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF61E441D6842CD008347FF /* _2_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCF61E361D6842CD008347FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCF61E1A1D6842CD008347FF /* 02-国旗选择 */;
+			targetProxy = BCF61E351D6842CD008347FF /* PBXContainerItemProxy */;
+		};
+		BCF61E411D6842CD008347FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCF61E1A1D6842CD008347FF /* 02-国旗选择 */;
+			targetProxy = BCF61E401D6842CD008347FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCF61E271D6842CD008347FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCF61E281D6842CD008347FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCF61E2C1D6842CD008347FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCF61E2D1D6842CD008347FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCF61E461D6842CD008347FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCF61E471D6842CD008347FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCF61E491D6842CD008347FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-国旗选择/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.-2-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCF61E4A1D6842CD008347FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-国旗选择/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.-2-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCF61E4C1D6842CD008347FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "02-国旗选择Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.-2-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-国旗选择.app/02-国旗选择";
+			};
+			name = Debug;
+		};
+		BCF61E4D1D6842CD008347FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "02-国旗选择Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.-2-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-国旗选择.app/02-国旗选择";
+			};
+			name = Release;
+		};
+		BCF61E4F1D6842CD008347FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "02-国旗选择UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.-2-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "02-国旗选择";
+			};
+			name = Debug;
+		};
+		BCF61E501D6842CD008347FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "02-国旗选择UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.-2-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "02-国旗选择";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCF61E161D6842CD008347FF /* Build configuration list for PBXProject "02-国旗选择" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF61E461D6842CD008347FF /* Debug */,
+				BCF61E471D6842CD008347FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF61E481D6842CD008347FF /* Build configuration list for PBXNativeTarget "02-国旗选择" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF61E491D6842CD008347FF /* Debug */,
+				BCF61E4A1D6842CD008347FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF61E4B1D6842CD008347FF /* Build configuration list for PBXNativeTarget "02-国旗选择Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF61E4C1D6842CD008347FF /* Debug */,
+				BCF61E4D1D6842CD008347FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF61E4E1D6842CD008347FF /* Build configuration list for PBXNativeTarget "02-国旗选择UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF61E4F1D6842CD008347FF /* Debug */,
+				BCF61E501D6842CD008347FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCF61E131D6842CD008347FF /* Project object */;
+}
