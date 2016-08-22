@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC408C991D6B11F700EF278B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC408C981D6B11F700EF278B /* main.m */; };
+		BC408C9C1D6B11F700EF278B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC408C9B1D6B11F700EF278B /* AppDelegate.m */; };
+		BC408C9F1D6B11F700EF278B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC408C9E1D6B11F700EF278B /* ViewController.m */; };
+		BC408CA21D6B11F700EF278B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC408CA01D6B11F700EF278B /* Main.storyboard */; };
+		BC408CA41D6B11F700EF278B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC408CA31D6B11F700EF278B /* Assets.xcassets */; };
+		BC408CA71D6B11F700EF278B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC408CA51D6B11F700EF278B /* LaunchScreen.storyboard */; };
+		BC408CB21D6B11F700EF278B /* UI___06___xib_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC408CB11D6B11F700EF278B /* UI___06___xib_____Tests.m */; };
+		BC408CBD1D6B11F700EF278B /* UI___06___xib_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC408CBC1D6B11F700EF278B /* UI___06___xib_____UITests.m */; };
+		BC408CCB1D6B12AE00EF278B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC408CCA1D6B12AE00EF278B /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC408CAE1D6B11F700EF278B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC408C8C1D6B11F700EF278B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC408C931D6B11F700EF278B;
+			remoteInfo = "UI进阶-06-通过xib创建控制器";
+		};
+		BC408CB91D6B11F700EF278B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC408C8C1D6B11F700EF278B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC408C931D6B11F700EF278B;
+			remoteInfo = "UI进阶-06-通过xib创建控制器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC408C941D6B11F700EF278B /* UI进阶-06-通过xib创建控制器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI进阶-06-通过xib创建控制器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC408C981D6B11F700EF278B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC408C9A1D6B11F700EF278B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC408C9B1D6B11F700EF278B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC408C9D1D6B11F700EF278B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC408C9E1D6B11F700EF278B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC408CA11D6B11F700EF278B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC408CA31D6B11F700EF278B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC408CA61D6B11F700EF278B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC408CA81D6B11F700EF278B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC408CAD1D6B11F700EF278B /* UI进阶-06-通过xib创建控制器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI进阶-06-通过xib创建控制器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC408CB11D6B11F700EF278B /* UI___06___xib_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI___06___xib_____Tests.m"; sourceTree = "<group>"; };
+		BC408CB31D6B11F700EF278B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC408CB81D6B11F700EF278B /* UI进阶-06-通过xib创建控制器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI进阶-06-通过xib创建控制器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC408CBC1D6B11F700EF278B /* UI___06___xib_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI___06___xib_____UITests.m"; sourceTree = "<group>"; };
+		BC408CBE1D6B11F700EF278B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC408CCA1D6B12AE00EF278B /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC408C911D6B11F700EF278B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC408CAA1D6B11F700EF278B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC408CB51D6B11F700EF278B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC408C8B1D6B11F700EF278B = {
+			isa = PBXGroup;
+			children = (
+				BC408C961D6B11F700EF278B /* UI进阶-06-通过xib创建控制器 */,
+				BC408CB01D6B11F700EF278B /* UI进阶-06-通过xib创建控制器Tests */,
+				BC408CBB1D6B11F700EF278B /* UI进阶-06-通过xib创建控制器UITests */,
+				BC408C951D6B11F700EF278B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC408C951D6B11F700EF278B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC408C941D6B11F700EF278B /* UI进阶-06-通过xib创建控制器.app */,
+				BC408CAD1D6B11F700EF278B /* UI进阶-06-通过xib创建控制器Tests.xctest */,
+				BC408CB81D6B11F700EF278B /* UI进阶-06-通过xib创建控制器UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC408C961D6B11F700EF278B /* UI进阶-06-通过xib创建控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				BC408C9A1D6B11F700EF278B /* AppDelegate.h */,
+				BC408C9B1D6B11F700EF278B /* AppDelegate.m */,
+				BC408CCA1D6B12AE00EF278B /* ViewController.xib */,
+				BC408C9D1D6B11F700EF278B /* ViewController.h */,
+				BC408C9E1D6B11F700EF278B /* ViewController.m */,
+				BC408CA01D6B11F700EF278B /* Main.storyboard */,
+				BC408CA31D6B11F700EF278B /* Assets.xcassets */,
+				BC408CA51D6B11F700EF278B /* LaunchScreen.storyboard */,
+				BC408CA81D6B11F700EF278B /* Info.plist */,
+				BC408C971D6B11F700EF278B /* Supporting Files */,
+			);
+			path = "UI进阶-06-通过xib创建控制器";
+			sourceTree = "<group>";
+		};
+		BC408C971D6B11F700EF278B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC408C981D6B11F700EF278B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC408CB01D6B11F700EF278B /* UI进阶-06-通过xib创建控制器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BC408CB11D6B11F700EF278B /* UI___06___xib_____Tests.m */,
+				BC408CB31D6B11F700EF278B /* Info.plist */,
+			);
+			path = "UI进阶-06-通过xib创建控制器Tests";
+			sourceTree = "<group>";
+		};
+		BC408CBB1D6B11F700EF278B /* UI进阶-06-通过xib创建控制器UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC408CBC1D6B11F700EF278B /* UI___06___xib_____UITests.m */,
+				BC408CBE1D6B11F700EF278B /* Info.plist */,
+			);
+			path = "UI进阶-06-通过xib创建控制器UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC408C931D6B11F700EF278B /* UI进阶-06-通过xib创建控制器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC408CC11D6B11F700EF278B /* Build configuration list for PBXNativeTarget "UI进阶-06-通过xib创建控制器" */;
+			buildPhases = (
+				BC408C901D6B11F700EF278B /* Sources */,
+				BC408C911D6B11F700EF278B /* Frameworks */,
+				BC408C921D6B11F700EF278B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UI进阶-06-通过xib创建控制器";
+			productName = "UI进阶-06-通过xib创建控制器";
+			productReference = BC408C941D6B11F700EF278B /* UI进阶-06-通过xib创建控制器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC408CAC1D6B11F700EF278B /* UI进阶-06-通过xib创建控制器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC408CC41D6B11F700EF278B /* Build configuration list for PBXNativeTarget "UI进阶-06-通过xib创建控制器Tests" */;
+			buildPhases = (
+				BC408CA91D6B11F700EF278B /* Sources */,
+				BC408CAA1D6B11F700EF278B /* Frameworks */,
+				BC408CAB1D6B11F700EF278B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC408CAF1D6B11F700EF278B /* PBXTargetDependency */,
+			);
+			name = "UI进阶-06-通过xib创建控制器Tests";
+			productName = "UI进阶-06-通过xib创建控制器Tests";
+			productReference = BC408CAD1D6B11F700EF278B /* UI进阶-06-通过xib创建控制器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC408CB71D6B11F700EF278B /* UI进阶-06-通过xib创建控制器UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC408CC71D6B11F700EF278B /* Build configuration list for PBXNativeTarget "UI进阶-06-通过xib创建控制器UITests" */;
+			buildPhases = (
+				BC408CB41D6B11F700EF278B /* Sources */,
+				BC408CB51D6B11F700EF278B /* Frameworks */,
+				BC408CB61D6B11F700EF278B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC408CBA1D6B11F700EF278B /* PBXTargetDependency */,
+			);
+			name = "UI进阶-06-通过xib创建控制器UITests";
+			productName = "UI进阶-06-通过xib创建控制器UITests";
+			productReference = BC408CB81D6B11F700EF278B /* UI进阶-06-通过xib创建控制器UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC408C8C1D6B11F700EF278B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = liser;
+				TargetAttributes = {
+					BC408C931D6B11F700EF278B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BC408CAC1D6B11F700EF278B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BC408C931D6B11F700EF278B;
+					};
+					BC408CB71D6B11F700EF278B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BC408C931D6B11F700EF278B;
+					};
+				};
+			};
+			buildConfigurationList = BC408C8F1D6B11F700EF278B /* Build configuration list for PBXProject "UI进阶-06-通过xib创建控制器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC408C8B1D6B11F700EF278B;
+			productRefGroup = BC408C951D6B11F700EF278B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC408C931D6B11F700EF278B /* UI进阶-06-通过xib创建控制器 */,
+				BC408CAC1D6B11F700EF278B /* UI进阶-06-通过xib创建控制器Tests */,
+				BC408CB71D6B11F700EF278B /* UI进阶-06-通过xib创建控制器UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC408C921D6B11F700EF278B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC408CA71D6B11F700EF278B /* LaunchScreen.storyboard in Resources */,
+				BC408CA41D6B11F700EF278B /* Assets.xcassets in Resources */,
+				BC408CCB1D6B12AE00EF278B /* ViewController.xib in Resources */,
+				BC408CA21D6B11F700EF278B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC408CAB1D6B11F700EF278B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC408CB61D6B11F700EF278B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC408C901D6B11F700EF278B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC408C9F1D6B11F700EF278B /* ViewController.m in Sources */,
+				BC408C9C1D6B11F700EF278B /* AppDelegate.m in Sources */,
+				BC408C991D6B11F700EF278B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC408CA91D6B11F700EF278B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC408CB21D6B11F700EF278B /* UI___06___xib_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC408CB41D6B11F700EF278B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC408CBD1D6B11F700EF278B /* UI___06___xib_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC408CAF1D6B11F700EF278B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC408C931D6B11F700EF278B /* UI进阶-06-通过xib创建控制器 */;
+			targetProxy = BC408CAE1D6B11F700EF278B /* PBXContainerItemProxy */;
+		};
+		BC408CBA1D6B11F700EF278B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC408C931D6B11F700EF278B /* UI进阶-06-通过xib创建控制器 */;
+			targetProxy = BC408CB91D6B11F700EF278B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC408CA01D6B11F700EF278B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC408CA11D6B11F700EF278B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC408CA51D6B11F700EF278B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC408CA61D6B11F700EF278B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC408CBF1D6B11F700EF278B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC408CC01D6B11F700EF278B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC408CC21D6B11F700EF278B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UI进阶-06-通过xib创建控制器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---06---xib-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC408CC31D6B11F700EF278B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UI进阶-06-通过xib创建控制器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---06---xib-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC408CC51D6B11F700EF278B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI进阶-06-通过xib创建控制器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---06---xib-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI进阶-06-通过xib创建控制器.app/UI进阶-06-通过xib创建控制器";
+			};
+			name = Debug;
+		};
+		BC408CC61D6B11F700EF278B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI进阶-06-通过xib创建控制器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---06---xib-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI进阶-06-通过xib创建控制器.app/UI进阶-06-通过xib创建控制器";
+			};
+			name = Release;
+		};
+		BC408CC81D6B11F700EF278B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI进阶-06-通过xib创建控制器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---06---xib-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI进阶-06-通过xib创建控制器";
+			};
+			name = Debug;
+		};
+		BC408CC91D6B11F700EF278B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI进阶-06-通过xib创建控制器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---06---xib-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI进阶-06-通过xib创建控制器";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC408C8F1D6B11F700EF278B /* Build configuration list for PBXProject "UI进阶-06-通过xib创建控制器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC408CBF1D6B11F700EF278B /* Debug */,
+				BC408CC01D6B11F700EF278B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC408CC11D6B11F700EF278B /* Build configuration list for PBXNativeTarget "UI进阶-06-通过xib创建控制器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC408CC21D6B11F700EF278B /* Debug */,
+				BC408CC31D6B11F700EF278B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC408CC41D6B11F700EF278B /* Build configuration list for PBXNativeTarget "UI进阶-06-通过xib创建控制器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC408CC51D6B11F700EF278B /* Debug */,
+				BC408CC61D6B11F700EF278B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC408CC71D6B11F700EF278B /* Build configuration list for PBXNativeTarget "UI进阶-06-通过xib创建控制器UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC408CC81D6B11F700EF278B /* Debug */,
+				BC408CC91D6B11F700EF278B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC408C8C1D6B11F700EF278B /* Project object */;
+}
