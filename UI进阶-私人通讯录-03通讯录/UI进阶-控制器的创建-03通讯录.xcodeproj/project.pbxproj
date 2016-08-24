@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCF86C551D6DB56B009F160D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF86C541D6DB56B009F160D /* main.m */; };
+		BCF86C581D6DB56B009F160D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF86C571D6DB56B009F160D /* AppDelegate.m */; };
+		BCF86C5E1D6DB56B009F160D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF86C5C1D6DB56B009F160D /* Main.storyboard */; };
+		BCF86C601D6DB56B009F160D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF86C5F1D6DB56B009F160D /* Assets.xcassets */; };
+		BCF86C631D6DB56B009F160D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF86C611D6DB56B009F160D /* LaunchScreen.storyboard */; };
+		BCF86C6E1D6DB56B009F160D /* UI__________03___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF86C6D1D6DB56B009F160D /* UI__________03___Tests.m */; };
+		BCF86C791D6DB56B009F160D /* UI__________03___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF86C781D6DB56B009F160D /* UI__________03___UITests.m */; };
+		BCF86C8A1D6DB624009F160D /* XJContantTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF86C871D6DB624009F160D /* XJContantTableViewController.m */; };
+		BCF86C8B1D6DB624009F160D /* XJLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF86C891D6DB624009F160D /* XJLoginViewController.m */; };
+		BCF86C921D6DBB06009F160D /* MBProgressHUD+XMG.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF86C8E1D6DBB06009F160D /* MBProgressHUD+XMG.m */; };
+		BCF86C931D6DBB06009F160D /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BCF86C8F1D6DBB06009F160D /* MBProgressHUD.bundle */; };
+		BCF86C941D6DBB06009F160D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF86C911D6DBB06009F160D /* MBProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCF86C6A1D6DB56B009F160D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCF86C481D6DB56B009F160D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF86C4F1D6DB56B009F160D;
+			remoteInfo = "UI进阶-控制器的创建-03通讯录";
+		};
+		BCF86C751D6DB56B009F160D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCF86C481D6DB56B009F160D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF86C4F1D6DB56B009F160D;
+			remoteInfo = "UI进阶-控制器的创建-03通讯录";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCF86C501D6DB56B009F160D /* UI进阶-控制器的创建-03通讯录.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI进阶-控制器的创建-03通讯录.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF86C541D6DB56B009F160D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCF86C561D6DB56B009F160D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCF86C571D6DB56B009F160D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCF86C5D1D6DB56B009F160D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCF86C5F1D6DB56B009F160D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCF86C621D6DB56B009F160D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCF86C641D6DB56B009F160D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF86C691D6DB56B009F160D /* UI进阶-控制器的创建-03通讯录Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI进阶-控制器的创建-03通讯录Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF86C6D1D6DB56B009F160D /* UI__________03___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI__________03___Tests.m"; sourceTree = "<group>"; };
+		BCF86C6F1D6DB56B009F160D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF86C741D6DB56B009F160D /* UI进阶-控制器的创建-03通讯录UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI进阶-控制器的创建-03通讯录UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF86C781D6DB56B009F160D /* UI__________03___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI__________03___UITests.m"; sourceTree = "<group>"; };
+		BCF86C7A1D6DB56B009F160D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF86C861D6DB624009F160D /* XJContantTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJContantTableViewController.h; sourceTree = "<group>"; };
+		BCF86C871D6DB624009F160D /* XJContantTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJContantTableViewController.m; sourceTree = "<group>"; };
+		BCF86C881D6DB624009F160D /* XJLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJLoginViewController.h; sourceTree = "<group>"; };
+		BCF86C891D6DB624009F160D /* XJLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJLoginViewController.m; sourceTree = "<group>"; };
+		BCF86C8D1D6DBB06009F160D /* MBProgressHUD+XMG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XMG.h"; sourceTree = "<group>"; };
+		BCF86C8E1D6DBB06009F160D /* MBProgressHUD+XMG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XMG.m"; sourceTree = "<group>"; };
+		BCF86C8F1D6DBB06009F160D /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		BCF86C901D6DBB06009F160D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		BCF86C911D6DBB06009F160D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCF86C4D1D6DB56B009F160D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF86C661D6DB56B009F160D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF86C711D6DB56B009F160D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCF86C471D6DB56B009F160D = {
+			isa = PBXGroup;
+			children = (
+				BCF86C521D6DB56B009F160D /* UI进阶-控制器的创建-03通讯录 */,
+				BCF86C6C1D6DB56B009F160D /* UI进阶-控制器的创建-03通讯录Tests */,
+				BCF86C771D6DB56B009F160D /* UI进阶-控制器的创建-03通讯录UITests */,
+				BCF86C511D6DB56B009F160D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCF86C511D6DB56B009F160D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCF86C501D6DB56B009F160D /* UI进阶-控制器的创建-03通讯录.app */,
+				BCF86C691D6DB56B009F160D /* UI进阶-控制器的创建-03通讯录Tests.xctest */,
+				BCF86C741D6DB56B009F160D /* UI进阶-控制器的创建-03通讯录UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCF86C521D6DB56B009F160D /* UI进阶-控制器的创建-03通讯录 */ = {
+			isa = PBXGroup;
+			children = (
+				BCF86C561D6DB56B009F160D /* AppDelegate.h */,
+				BCF86C571D6DB56B009F160D /* AppDelegate.m */,
+				BCF86C861D6DB624009F160D /* XJContantTableViewController.h */,
+				BCF86C871D6DB624009F160D /* XJContantTableViewController.m */,
+				BCF86C881D6DB624009F160D /* XJLoginViewController.h */,
+				BCF86C891D6DB624009F160D /* XJLoginViewController.m */,
+				BCF86C531D6DB56B009F160D /* Supporting Files */,
+			);
+			path = "UI进阶-控制器的创建-03通讯录";
+			sourceTree = "<group>";
+		};
+		BCF86C531D6DB56B009F160D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCF86C8C1D6DBB06009F160D /* MBProgressHUD */,
+				BCF86C5C1D6DB56B009F160D /* Main.storyboard */,
+				BCF86C5F1D6DB56B009F160D /* Assets.xcassets */,
+				BCF86C611D6DB56B009F160D /* LaunchScreen.storyboard */,
+				BCF86C641D6DB56B009F160D /* Info.plist */,
+				BCF86C541D6DB56B009F160D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCF86C6C1D6DB56B009F160D /* UI进阶-控制器的创建-03通讯录Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BCF86C6D1D6DB56B009F160D /* UI__________03___Tests.m */,
+				BCF86C6F1D6DB56B009F160D /* Info.plist */,
+			);
+			path = "UI进阶-控制器的创建-03通讯录Tests";
+			sourceTree = "<group>";
+		};
+		BCF86C771D6DB56B009F160D /* UI进阶-控制器的创建-03通讯录UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCF86C781D6DB56B009F160D /* UI__________03___UITests.m */,
+				BCF86C7A1D6DB56B009F160D /* Info.plist */,
+			);
+			path = "UI进阶-控制器的创建-03通讯录UITests";
+			sourceTree = "<group>";
+		};
+		BCF86C8C1D6DBB06009F160D /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				BCF86C8D1D6DBB06009F160D /* MBProgressHUD+XMG.h */,
+				BCF86C8E1D6DBB06009F160D /* MBProgressHUD+XMG.m */,
+				BCF86C8F1D6DBB06009F160D /* MBProgressHUD.bundle */,
+				BCF86C901D6DBB06009F160D /* MBProgressHUD.h */,
+				BCF86C911D6DBB06009F160D /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCF86C4F1D6DB56B009F160D /* UI进阶-控制器的创建-03通讯录 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF86C7D1D6DB56B009F160D /* Build configuration list for PBXNativeTarget "UI进阶-控制器的创建-03通讯录" */;
+			buildPhases = (
+				BCF86C4C1D6DB56B009F160D /* Sources */,
+				BCF86C4D1D6DB56B009F160D /* Frameworks */,
+				BCF86C4E1D6DB56B009F160D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UI进阶-控制器的创建-03通讯录";
+			productName = "UI进阶-控制器的创建-03通讯录";
+			productReference = BCF86C501D6DB56B009F160D /* UI进阶-控制器的创建-03通讯录.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCF86C681D6DB56B009F160D /* UI进阶-控制器的创建-03通讯录Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF86C801D6DB56B009F160D /* Build configuration list for PBXNativeTarget "UI进阶-控制器的创建-03通讯录Tests" */;
+			buildPhases = (
+				BCF86C651D6DB56B009F160D /* Sources */,
+				BCF86C661D6DB56B009F160D /* Frameworks */,
+				BCF86C671D6DB56B009F160D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCF86C6B1D6DB56B009F160D /* PBXTargetDependency */,
+			);
+			name = "UI进阶-控制器的创建-03通讯录Tests";
+			productName = "UI进阶-控制器的创建-03通讯录Tests";
+			productReference = BCF86C691D6DB56B009F160D /* UI进阶-控制器的创建-03通讯录Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCF86C731D6DB56B009F160D /* UI进阶-控制器的创建-03通讯录UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF86C831D6DB56B009F160D /* Build configuration list for PBXNativeTarget "UI进阶-控制器的创建-03通讯录UITests" */;
+			buildPhases = (
+				BCF86C701D6DB56B009F160D /* Sources */,
+				BCF86C711D6DB56B009F160D /* Frameworks */,
+				BCF86C721D6DB56B009F160D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCF86C761D6DB56B009F160D /* PBXTargetDependency */,
+			);
+			name = "UI进阶-控制器的创建-03通讯录UITests";
+			productName = "UI进阶-控制器的创建-03通讯录UITests";
+			productReference = BCF86C741D6DB56B009F160D /* UI进阶-控制器的创建-03通讯录UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCF86C481D6DB56B009F160D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = liser;
+				TargetAttributes = {
+					BCF86C4F1D6DB56B009F160D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BCF86C681D6DB56B009F160D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BCF86C4F1D6DB56B009F160D;
+					};
+					BCF86C731D6DB56B009F160D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BCF86C4F1D6DB56B009F160D;
+					};
+				};
+			};
+			buildConfigurationList = BCF86C4B1D6DB56B009F160D /* Build configuration list for PBXProject "UI进阶-控制器的创建-03通讯录" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCF86C471D6DB56B009F160D;
+			productRefGroup = BCF86C511D6DB56B009F160D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCF86C4F1D6DB56B009F160D /* UI进阶-控制器的创建-03通讯录 */,
+				BCF86C681D6DB56B009F160D /* UI进阶-控制器的创建-03通讯录Tests */,
+				BCF86C731D6DB56B009F160D /* UI进阶-控制器的创建-03通讯录UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCF86C4E1D6DB56B009F160D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF86C631D6DB56B009F160D /* LaunchScreen.storyboard in Resources */,
+				BCF86C931D6DBB06009F160D /* MBProgressHUD.bundle in Resources */,
+				BCF86C601D6DB56B009F160D /* Assets.xcassets in Resources */,
+				BCF86C5E1D6DB56B009F160D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF86C671D6DB56B009F160D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF86C721D6DB56B009F160D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCF86C4C1D6DB56B009F160D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF86C8B1D6DB624009F160D /* XJLoginViewController.m in Sources */,
+				BCF86C941D6DBB06009F160D /* MBProgressHUD.m in Sources */,
+				BCF86C581D6DB56B009F160D /* AppDelegate.m in Sources */,
+				BCF86C8A1D6DB624009F160D /* XJContantTableViewController.m in Sources */,
+				BCF86C551D6DB56B009F160D /* main.m in Sources */,
+				BCF86C921D6DBB06009F160D /* MBProgressHUD+XMG.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF86C651D6DB56B009F160D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF86C6E1D6DB56B009F160D /* UI__________03___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF86C701D6DB56B009F160D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF86C791D6DB56B009F160D /* UI__________03___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCF86C6B1D6DB56B009F160D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCF86C4F1D6DB56B009F160D /* UI进阶-控制器的创建-03通讯录 */;
+			targetProxy = BCF86C6A1D6DB56B009F160D /* PBXContainerItemProxy */;
+		};
+		BCF86C761D6DB56B009F160D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCF86C4F1D6DB56B009F160D /* UI进阶-控制器的创建-03通讯录 */;
+			targetProxy = BCF86C751D6DB56B009F160D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCF86C5C1D6DB56B009F160D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCF86C5D1D6DB56B009F160D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCF86C611D6DB56B009F160D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCF86C621D6DB56B009F160D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCF86C7B1D6DB56B009F160D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCF86C7C1D6DB56B009F160D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCF86C7E1D6DB56B009F160D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UI进阶-控制器的创建-03通讯录/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI----------03---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCF86C7F1D6DB56B009F160D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UI进阶-控制器的创建-03通讯录/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI----------03---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCF86C811D6DB56B009F160D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI进阶-控制器的创建-03通讯录Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI----------03---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI进阶-控制器的创建-03通讯录.app/UI进阶-控制器的创建-03通讯录";
+			};
+			name = Debug;
+		};
+		BCF86C821D6DB56B009F160D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI进阶-控制器的创建-03通讯录Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI----------03---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI进阶-控制器的创建-03通讯录.app/UI进阶-控制器的创建-03通讯录";
+			};
+			name = Release;
+		};
+		BCF86C841D6DB56B009F160D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI进阶-控制器的创建-03通讯录UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI----------03---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI进阶-控制器的创建-03通讯录";
+			};
+			name = Debug;
+		};
+		BCF86C851D6DB56B009F160D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI进阶-控制器的创建-03通讯录UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI----------03---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI进阶-控制器的创建-03通讯录";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCF86C4B1D6DB56B009F160D /* Build configuration list for PBXProject "UI进阶-控制器的创建-03通讯录" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF86C7B1D6DB56B009F160D /* Debug */,
+				BCF86C7C1D6DB56B009F160D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF86C7D1D6DB56B009F160D /* Build configuration list for PBXNativeTarget "UI进阶-控制器的创建-03通讯录" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF86C7E1D6DB56B009F160D /* Debug */,
+				BCF86C7F1D6DB56B009F160D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCF86C801D6DB56B009F160D /* Build configuration list for PBXNativeTarget "UI进阶-控制器的创建-03通讯录Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF86C811D6DB56B009F160D /* Debug */,
+				BCF86C821D6DB56B009F160D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCF86C831D6DB56B009F160D /* Build configuration list for PBXNativeTarget "UI进阶-控制器的创建-03通讯录UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF86C841D6DB56B009F160D /* Debug */,
+				BCF86C851D6DB56B009F160D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCF86C481D6DB56B009F160D /* Project object */;
+}
