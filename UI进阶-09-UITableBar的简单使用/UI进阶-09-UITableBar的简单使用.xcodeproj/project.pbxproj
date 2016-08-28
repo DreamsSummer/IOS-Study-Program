@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCFC471F1D71A4C800C3B55C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFC471E1D71A4C800C3B55C /* main.m */; };
+		BCFC47221D71A4C800C3B55C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFC47211D71A4C800C3B55C /* AppDelegate.m */; };
+		BCFC47251D71A4C800C3B55C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFC47241D71A4C800C3B55C /* ViewController.m */; };
+		BCFC47281D71A4C800C3B55C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFC47261D71A4C800C3B55C /* Main.storyboard */; };
+		BCFC472A1D71A4C800C3B55C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCFC47291D71A4C800C3B55C /* Assets.xcassets */; };
+		BCFC472D1D71A4C800C3B55C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFC472B1D71A4C800C3B55C /* LaunchScreen.storyboard */; };
+		BCFC47381D71A4C800C3B55C /* UI___09_UITableBar_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFC47371D71A4C800C3B55C /* UI___09_UITableBar_____Tests.m */; };
+		BCFC47431D71A4C800C3B55C /* UI___09_UITableBar_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFC47421D71A4C800C3B55C /* UI___09_UITableBar_____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCFC47341D71A4C800C3B55C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCFC47121D71A4C800C3B55C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCFC47191D71A4C800C3B55C;
+			remoteInfo = "UI进阶-09-UITableBar的简单使用";
+		};
+		BCFC473F1D71A4C800C3B55C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCFC47121D71A4C800C3B55C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCFC47191D71A4C800C3B55C;
+			remoteInfo = "UI进阶-09-UITableBar的简单使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCFC471A1D71A4C800C3B55C /* UI进阶-09-UITableBar的简单使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI进阶-09-UITableBar的简单使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCFC471E1D71A4C800C3B55C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCFC47201D71A4C800C3B55C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCFC47211D71A4C800C3B55C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCFC47231D71A4C800C3B55C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCFC47241D71A4C800C3B55C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCFC47271D71A4C800C3B55C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCFC47291D71A4C800C3B55C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCFC472C1D71A4C800C3B55C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCFC472E1D71A4C800C3B55C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCFC47331D71A4C800C3B55C /* UI进阶-09-UITableBar的简单使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI进阶-09-UITableBar的简单使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCFC47371D71A4C800C3B55C /* UI___09_UITableBar_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI___09_UITableBar_____Tests.m"; sourceTree = "<group>"; };
+		BCFC47391D71A4C800C3B55C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCFC473E1D71A4C800C3B55C /* UI进阶-09-UITableBar的简单使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI进阶-09-UITableBar的简单使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCFC47421D71A4C800C3B55C /* UI___09_UITableBar_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI___09_UITableBar_____UITests.m"; sourceTree = "<group>"; };
+		BCFC47441D71A4C800C3B55C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCFC47171D71A4C800C3B55C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCFC47301D71A4C800C3B55C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCFC473B1D71A4C800C3B55C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCFC47111D71A4C700C3B55C = {
+			isa = PBXGroup;
+			children = (
+				BCFC471C1D71A4C800C3B55C /* UI进阶-09-UITableBar的简单使用 */,
+				BCFC47361D71A4C800C3B55C /* UI进阶-09-UITableBar的简单使用Tests */,
+				BCFC47411D71A4C800C3B55C /* UI进阶-09-UITableBar的简单使用UITests */,
+				BCFC471B1D71A4C800C3B55C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCFC471B1D71A4C800C3B55C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCFC471A1D71A4C800C3B55C /* UI进阶-09-UITableBar的简单使用.app */,
+				BCFC47331D71A4C800C3B55C /* UI进阶-09-UITableBar的简单使用Tests.xctest */,
+				BCFC473E1D71A4C800C3B55C /* UI进阶-09-UITableBar的简单使用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCFC471C1D71A4C800C3B55C /* UI进阶-09-UITableBar的简单使用 */ = {
+			isa = PBXGroup;
+			children = (
+				BCFC47201D71A4C800C3B55C /* AppDelegate.h */,
+				BCFC47211D71A4C800C3B55C /* AppDelegate.m */,
+				BCFC47231D71A4C800C3B55C /* ViewController.h */,
+				BCFC47241D71A4C800C3B55C /* ViewController.m */,
+				BCFC47261D71A4C800C3B55C /* Main.storyboard */,
+				BCFC47291D71A4C800C3B55C /* Assets.xcassets */,
+				BCFC472B1D71A4C800C3B55C /* LaunchScreen.storyboard */,
+				BCFC472E1D71A4C800C3B55C /* Info.plist */,
+				BCFC471D1D71A4C800C3B55C /* Supporting Files */,
+			);
+			path = "UI进阶-09-UITableBar的简单使用";
+			sourceTree = "<group>";
+		};
+		BCFC471D1D71A4C800C3B55C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCFC471E1D71A4C800C3B55C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCFC47361D71A4C800C3B55C /* UI进阶-09-UITableBar的简单使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BCFC47371D71A4C800C3B55C /* UI___09_UITableBar_____Tests.m */,
+				BCFC47391D71A4C800C3B55C /* Info.plist */,
+			);
+			path = "UI进阶-09-UITableBar的简单使用Tests";
+			sourceTree = "<group>";
+		};
+		BCFC47411D71A4C800C3B55C /* UI进阶-09-UITableBar的简单使用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCFC47421D71A4C800C3B55C /* UI___09_UITableBar_____UITests.m */,
+				BCFC47441D71A4C800C3B55C /* Info.plist */,
+			);
+			path = "UI进阶-09-UITableBar的简单使用UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCFC47191D71A4C800C3B55C /* UI进阶-09-UITableBar的简单使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCFC47471D71A4C800C3B55C /* Build configuration list for PBXNativeTarget "UI进阶-09-UITableBar的简单使用" */;
+			buildPhases = (
+				BCFC47161D71A4C800C3B55C /* Sources */,
+				BCFC47171D71A4C800C3B55C /* Frameworks */,
+				BCFC47181D71A4C800C3B55C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UI进阶-09-UITableBar的简单使用";
+			productName = "UI进阶-09-UITableBar的简单使用";
+			productReference = BCFC471A1D71A4C800C3B55C /* UI进阶-09-UITableBar的简单使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCFC47321D71A4C800C3B55C /* UI进阶-09-UITableBar的简单使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCFC474A1D71A4C800C3B55C /* Build configuration list for PBXNativeTarget "UI进阶-09-UITableBar的简单使用Tests" */;
+			buildPhases = (
+				BCFC472F1D71A4C800C3B55C /* Sources */,
+				BCFC47301D71A4C800C3B55C /* Frameworks */,
+				BCFC47311D71A4C800C3B55C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCFC47351D71A4C800C3B55C /* PBXTargetDependency */,
+			);
+			name = "UI进阶-09-UITableBar的简单使用Tests";
+			productName = "UI进阶-09-UITableBar的简单使用Tests";
+			productReference = BCFC47331D71A4C800C3B55C /* UI进阶-09-UITableBar的简单使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCFC473D1D71A4C800C3B55C /* UI进阶-09-UITableBar的简单使用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCFC474D1D71A4C800C3B55C /* Build configuration list for PBXNativeTarget "UI进阶-09-UITableBar的简单使用UITests" */;
+			buildPhases = (
+				BCFC473A1D71A4C800C3B55C /* Sources */,
+				BCFC473B1D71A4C800C3B55C /* Frameworks */,
+				BCFC473C1D71A4C800C3B55C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCFC47401D71A4C800C3B55C /* PBXTargetDependency */,
+			);
+			name = "UI进阶-09-UITableBar的简单使用UITests";
+			productName = "UI进阶-09-UITableBar的简单使用UITests";
+			productReference = BCFC473E1D71A4C800C3B55C /* UI进阶-09-UITableBar的简单使用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCFC47121D71A4C800C3B55C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = liser;
+				TargetAttributes = {
+					BCFC47191D71A4C800C3B55C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BCFC47321D71A4C800C3B55C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BCFC47191D71A4C800C3B55C;
+					};
+					BCFC473D1D71A4C800C3B55C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BCFC47191D71A4C800C3B55C;
+					};
+				};
+			};
+			buildConfigurationList = BCFC47151D71A4C800C3B55C /* Build configuration list for PBXProject "UI进阶-09-UITableBar的简单使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCFC47111D71A4C700C3B55C;
+			productRefGroup = BCFC471B1D71A4C800C3B55C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCFC47191D71A4C800C3B55C /* UI进阶-09-UITableBar的简单使用 */,
+				BCFC47321D71A4C800C3B55C /* UI进阶-09-UITableBar的简单使用Tests */,
+				BCFC473D1D71A4C800C3B55C /* UI进阶-09-UITableBar的简单使用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCFC47181D71A4C800C3B55C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCFC472D1D71A4C800C3B55C /* LaunchScreen.storyboard in Resources */,
+				BCFC472A1D71A4C800C3B55C /* Assets.xcassets in Resources */,
+				BCFC47281D71A4C800C3B55C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCFC47311D71A4C800C3B55C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCFC473C1D71A4C800C3B55C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCFC47161D71A4C800C3B55C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCFC47251D71A4C800C3B55C /* ViewController.m in Sources */,
+				BCFC47221D71A4C800C3B55C /* AppDelegate.m in Sources */,
+				BCFC471F1D71A4C800C3B55C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCFC472F1D71A4C800C3B55C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCFC47381D71A4C800C3B55C /* UI___09_UITableBar_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCFC473A1D71A4C800C3B55C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCFC47431D71A4C800C3B55C /* UI___09_UITableBar_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCFC47351D71A4C800C3B55C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCFC47191D71A4C800C3B55C /* UI进阶-09-UITableBar的简单使用 */;
+			targetProxy = BCFC47341D71A4C800C3B55C /* PBXContainerItemProxy */;
+		};
+		BCFC47401D71A4C800C3B55C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCFC47191D71A4C800C3B55C /* UI进阶-09-UITableBar的简单使用 */;
+			targetProxy = BCFC473F1D71A4C800C3B55C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCFC47261D71A4C800C3B55C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCFC47271D71A4C800C3B55C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCFC472B1D71A4C800C3B55C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCFC472C1D71A4C800C3B55C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCFC47451D71A4C800C3B55C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCFC47461D71A4C800C3B55C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCFC47481D71A4C800C3B55C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UI进阶-09-UITableBar的简单使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---09-UITableBar-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCFC47491D71A4C800C3B55C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UI进阶-09-UITableBar的简单使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---09-UITableBar-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCFC474B1D71A4C800C3B55C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI进阶-09-UITableBar的简单使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---09-UITableBar-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI进阶-09-UITableBar的简单使用.app/UI进阶-09-UITableBar的简单使用";
+			};
+			name = Debug;
+		};
+		BCFC474C1D71A4C800C3B55C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI进阶-09-UITableBar的简单使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---09-UITableBar-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI进阶-09-UITableBar的简单使用.app/UI进阶-09-UITableBar的简单使用";
+			};
+			name = Release;
+		};
+		BCFC474E1D71A4C800C3B55C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI进阶-09-UITableBar的简单使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---09-UITableBar-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI进阶-09-UITableBar的简单使用";
+			};
+			name = Debug;
+		};
+		BCFC474F1D71A4C800C3B55C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI进阶-09-UITableBar的简单使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---09-UITableBar-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI进阶-09-UITableBar的简单使用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCFC47151D71A4C800C3B55C /* Build configuration list for PBXProject "UI进阶-09-UITableBar的简单使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCFC47451D71A4C800C3B55C /* Debug */,
+				BCFC47461D71A4C800C3B55C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCFC47471D71A4C800C3B55C /* Build configuration list for PBXNativeTarget "UI进阶-09-UITableBar的简单使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCFC47481D71A4C800C3B55C /* Debug */,
+				BCFC47491D71A4C800C3B55C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCFC474A1D71A4C800C3B55C /* Build configuration list for PBXNativeTarget "UI进阶-09-UITableBar的简单使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCFC474B1D71A4C800C3B55C /* Debug */,
+				BCFC474C1D71A4C800C3B55C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCFC474D1D71A4C800C3B55C /* Build configuration list for PBXNativeTarget "UI进阶-09-UITableBar的简单使用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCFC474E1D71A4C800C3B55C /* Debug */,
+				BCFC474F1D71A4C800C3B55C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCFC47121D71A4C800C3B55C /* Project object */;
+}
