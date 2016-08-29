@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC73ECF81D72902100D97528 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC73ECF71D72902100D97528 /* TwoViewController.m */; };
+		BC8529631D728D4000F085CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8529621D728D4000F085CE /* main.m */; };
+		BC8529661D728D4000F085CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8529651D728D4000F085CE /* AppDelegate.m */; };
+		BC8529691D728D4000F085CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8529681D728D4000F085CE /* ViewController.m */; };
+		BC85296C1D728D4000F085CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC85296A1D728D4000F085CE /* Main.storyboard */; };
+		BC85296E1D728D4000F085CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC85296D1D728D4000F085CE /* Assets.xcassets */; };
+		BC8529711D728D4000F085CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC85296F1D728D4000F085CE /* LaunchScreen.storyboard */; };
+		BC85297C1D728D4000F085CE /* UI___02_Modal_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC85297B1D728D4000F085CE /* UI___02_Modal_____Tests.m */; };
+		BC8529871D728D4000F085CE /* UI___02_Modal_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8529861D728D4000F085CE /* UI___02_Modal_____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC8529781D728D4000F085CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC8529561D728D4000F085CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC85295D1D728D4000F085CE;
+			remoteInfo = "UI进阶-02-Modal的常见用法";
+		};
+		BC8529831D728D4000F085CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC8529561D728D4000F085CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC85295D1D728D4000F085CE;
+			remoteInfo = "UI进阶-02-Modal的常见用法";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC73ECF61D72902100D97528 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		BC73ECF71D72902100D97528 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		BC85295E1D728D4000F085CE /* UI进阶-02-Modal的常见用法.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI进阶-02-Modal的常见用法.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8529621D728D4000F085CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC8529641D728D4000F085CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC8529651D728D4000F085CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC8529671D728D4000F085CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC8529681D728D4000F085CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC85296B1D728D4000F085CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC85296D1D728D4000F085CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC8529701D728D4000F085CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC8529721D728D4000F085CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC8529771D728D4000F085CE /* UI进阶-02-Modal的常见用法Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI进阶-02-Modal的常见用法Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC85297B1D728D4000F085CE /* UI___02_Modal_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI___02_Modal_____Tests.m"; sourceTree = "<group>"; };
+		BC85297D1D728D4000F085CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC8529821D728D4000F085CE /* UI进阶-02-Modal的常见用法UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI进阶-02-Modal的常见用法UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8529861D728D4000F085CE /* UI___02_Modal_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI___02_Modal_____UITests.m"; sourceTree = "<group>"; };
+		BC8529881D728D4100F085CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC85295B1D728D4000F085CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8529741D728D4000F085CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC85297F1D728D4000F085CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC8529551D728D4000F085CE = {
+			isa = PBXGroup;
+			children = (
+				BC8529601D728D4000F085CE /* UI进阶-02-Modal的常见用法 */,
+				BC85297A1D728D4000F085CE /* UI进阶-02-Modal的常见用法Tests */,
+				BC8529851D728D4000F085CE /* UI进阶-02-Modal的常见用法UITests */,
+				BC85295F1D728D4000F085CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC85295F1D728D4000F085CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC85295E1D728D4000F085CE /* UI进阶-02-Modal的常见用法.app */,
+				BC8529771D728D4000F085CE /* UI进阶-02-Modal的常见用法Tests.xctest */,
+				BC8529821D728D4000F085CE /* UI进阶-02-Modal的常见用法UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC8529601D728D4000F085CE /* UI进阶-02-Modal的常见用法 */ = {
+			isa = PBXGroup;
+			children = (
+				BC8529641D728D4000F085CE /* AppDelegate.h */,
+				BC8529651D728D4000F085CE /* AppDelegate.m */,
+				BC73ECF61D72902100D97528 /* TwoViewController.h */,
+				BC73ECF71D72902100D97528 /* TwoViewController.m */,
+				BC8529671D728D4000F085CE /* ViewController.h */,
+				BC8529681D728D4000F085CE /* ViewController.m */,
+				BC85296A1D728D4000F085CE /* Main.storyboard */,
+				BC85296D1D728D4000F085CE /* Assets.xcassets */,
+				BC85296F1D728D4000F085CE /* LaunchScreen.storyboard */,
+				BC8529721D728D4000F085CE /* Info.plist */,
+				BC8529611D728D4000F085CE /* Supporting Files */,
+			);
+			path = "UI进阶-02-Modal的常见用法";
+			sourceTree = "<group>";
+		};
+		BC8529611D728D4000F085CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC8529621D728D4000F085CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC85297A1D728D4000F085CE /* UI进阶-02-Modal的常见用法Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BC85297B1D728D4000F085CE /* UI___02_Modal_____Tests.m */,
+				BC85297D1D728D4000F085CE /* Info.plist */,
+			);
+			path = "UI进阶-02-Modal的常见用法Tests";
+			sourceTree = "<group>";
+		};
+		BC8529851D728D4000F085CE /* UI进阶-02-Modal的常见用法UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC8529861D728D4000F085CE /* UI___02_Modal_____UITests.m */,
+				BC8529881D728D4100F085CE /* Info.plist */,
+			);
+			path = "UI进阶-02-Modal的常见用法UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC85295D1D728D4000F085CE /* UI进阶-02-Modal的常见用法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC85298B1D728D4100F085CE /* Build configuration list for PBXNativeTarget "UI进阶-02-Modal的常见用法" */;
+			buildPhases = (
+				BC85295A1D728D4000F085CE /* Sources */,
+				BC85295B1D728D4000F085CE /* Frameworks */,
+				BC85295C1D728D4000F085CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UI进阶-02-Modal的常见用法";
+			productName = "UI进阶-02-Modal的常见用法";
+			productReference = BC85295E1D728D4000F085CE /* UI进阶-02-Modal的常见用法.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC8529761D728D4000F085CE /* UI进阶-02-Modal的常见用法Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC85298E1D728D4100F085CE /* Build configuration list for PBXNativeTarget "UI进阶-02-Modal的常见用法Tests" */;
+			buildPhases = (
+				BC8529731D728D4000F085CE /* Sources */,
+				BC8529741D728D4000F085CE /* Frameworks */,
+				BC8529751D728D4000F085CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC8529791D728D4000F085CE /* PBXTargetDependency */,
+			);
+			name = "UI进阶-02-Modal的常见用法Tests";
+			productName = "UI进阶-02-Modal的常见用法Tests";
+			productReference = BC8529771D728D4000F085CE /* UI进阶-02-Modal的常见用法Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC8529811D728D4000F085CE /* UI进阶-02-Modal的常见用法UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC8529911D728D4100F085CE /* Build configuration list for PBXNativeTarget "UI进阶-02-Modal的常见用法UITests" */;
+			buildPhases = (
+				BC85297E1D728D4000F085CE /* Sources */,
+				BC85297F1D728D4000F085CE /* Frameworks */,
+				BC8529801D728D4000F085CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC8529841D728D4000F085CE /* PBXTargetDependency */,
+			);
+			name = "UI进阶-02-Modal的常见用法UITests";
+			productName = "UI进阶-02-Modal的常见用法UITests";
+			productReference = BC8529821D728D4000F085CE /* UI进阶-02-Modal的常见用法UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC8529561D728D4000F085CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = liser;
+				TargetAttributes = {
+					BC85295D1D728D4000F085CE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BC8529761D728D4000F085CE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BC85295D1D728D4000F085CE;
+					};
+					BC8529811D728D4000F085CE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BC85295D1D728D4000F085CE;
+					};
+				};
+			};
+			buildConfigurationList = BC8529591D728D4000F085CE /* Build configuration list for PBXProject "UI进阶-02-Modal的常见用法" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC8529551D728D4000F085CE;
+			productRefGroup = BC85295F1D728D4000F085CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC85295D1D728D4000F085CE /* UI进阶-02-Modal的常见用法 */,
+				BC8529761D728D4000F085CE /* UI进阶-02-Modal的常见用法Tests */,
+				BC8529811D728D4000F085CE /* UI进阶-02-Modal的常见用法UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC85295C1D728D4000F085CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8529711D728D4000F085CE /* LaunchScreen.storyboard in Resources */,
+				BC85296E1D728D4000F085CE /* Assets.xcassets in Resources */,
+				BC85296C1D728D4000F085CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8529751D728D4000F085CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8529801D728D4000F085CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC85295A1D728D4000F085CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8529691D728D4000F085CE /* ViewController.m in Sources */,
+				BC8529661D728D4000F085CE /* AppDelegate.m in Sources */,
+				BC8529631D728D4000F085CE /* main.m in Sources */,
+				BC73ECF81D72902100D97528 /* TwoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8529731D728D4000F085CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC85297C1D728D4000F085CE /* UI___02_Modal_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC85297E1D728D4000F085CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8529871D728D4000F085CE /* UI___02_Modal_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC8529791D728D4000F085CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC85295D1D728D4000F085CE /* UI进阶-02-Modal的常见用法 */;
+			targetProxy = BC8529781D728D4000F085CE /* PBXContainerItemProxy */;
+		};
+		BC8529841D728D4000F085CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC85295D1D728D4000F085CE /* UI进阶-02-Modal的常见用法 */;
+			targetProxy = BC8529831D728D4000F085CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC85296A1D728D4000F085CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC85296B1D728D4000F085CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC85296F1D728D4000F085CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC8529701D728D4000F085CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC8529891D728D4100F085CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC85298A1D728D4100F085CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC85298C1D728D4100F085CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UI进阶-02-Modal的常见用法/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---02-Modal-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC85298D1D728D4100F085CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UI进阶-02-Modal的常见用法/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---02-Modal-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC85298F1D728D4100F085CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI进阶-02-Modal的常见用法Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---02-Modal-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI进阶-02-Modal的常见用法.app/UI进阶-02-Modal的常见用法";
+			};
+			name = Debug;
+		};
+		BC8529901D728D4100F085CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI进阶-02-Modal的常见用法Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---02-Modal-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI进阶-02-Modal的常见用法.app/UI进阶-02-Modal的常见用法";
+			};
+			name = Release;
+		};
+		BC8529921D728D4100F085CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI进阶-02-Modal的常见用法UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---02-Modal-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI进阶-02-Modal的常见用法";
+			};
+			name = Debug;
+		};
+		BC8529931D728D4100F085CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI进阶-02-Modal的常见用法UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---02-Modal-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI进阶-02-Modal的常见用法";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC8529591D728D4000F085CE /* Build configuration list for PBXProject "UI进阶-02-Modal的常见用法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8529891D728D4100F085CE /* Debug */,
+				BC85298A1D728D4100F085CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC85298B1D728D4100F085CE /* Build configuration list for PBXNativeTarget "UI进阶-02-Modal的常见用法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC85298C1D728D4100F085CE /* Debug */,
+				BC85298D1D728D4100F085CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC85298E1D728D4100F085CE /* Build configuration list for PBXNativeTarget "UI进阶-02-Modal的常见用法Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC85298F1D728D4100F085CE /* Debug */,
+				BC8529901D728D4100F085CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC8529911D728D4100F085CE /* Build configuration list for PBXNativeTarget "UI进阶-02-Modal的常见用法UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8529921D728D4100F085CE /* Debug */,
+				BC8529931D728D4100F085CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC8529561D728D4000F085CE /* Project object */;
+}
