@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		700CBBA61B2FC98700705E56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 700CBBA51B2FC98700705E56 /* main.m */; };
+		700CBBA91B2FC98700705E56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 700CBBA81B2FC98700705E56 /* AppDelegate.m */; };
+		700CBBAC1B2FC98700705E56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700CBBAB1B2FC98700705E56 /* ViewController.m */; };
+		700CBBAF1B2FC98700705E56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700CBBAD1B2FC98700705E56 /* Main.storyboard */; };
+		700CBBB11B2FC98700705E56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 700CBBB01B2FC98700705E56 /* Images.xcassets */; };
+		700CBBB41B2FC98700705E56 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 700CBBB21B2FC98700705E56 /* LaunchScreen.xib */; };
+		700CBBC01B2FC98700705E56 /* _4_________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 700CBBBF1B2FC98700705E56 /* _4_________Tests.m */; };
+		700CBBCB1B2FCA1000705E56 /* WhiteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 700CBBCA1B2FCA1000705E56 /* WhiteView.m */; };
+		700CBBCE1B2FCA3E00705E56 /* GreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 700CBBCD1B2FCA3E00705E56 /* GreenView.m */; };
+		700CBBD11B2FCA5F00705E56 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 700CBBD01B2FCA5F00705E56 /* BaseView.m */; };
+		700CBBD41B2FCAED00705E56 /* OriView.m in Sources */ = {isa = PBXBuildFile; fileRef = 700CBBD31B2FCAED00705E56 /* OriView.m */; };
+		700CBBD71B2FCAF500705E56 /* YellowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 700CBBD61B2FCAF500705E56 /* YellowView.m */; };
+		700CBBDA1B2FCAFB00705E56 /* BlueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 700CBBD91B2FCAFB00705E56 /* BlueView.m */; };
+		700CBBDD1B2FCB1100705E56 /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 700CBBDC1B2FCB1100705E56 /* RedView.m */; };
+		BCCE9D8B1D72B3700083CBAE /* XJWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCE9D8A1D72B3700083CBAE /* XJWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		700CBBBA1B2FC98700705E56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 700CBB981B2FC98700705E56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 700CBB9F1B2FC98700705E56;
+			remoteInfo = "04-事件的产生和传递";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		700CBBA01B2FC98700705E56 /* 04-事件的产生和传递.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04-事件的产生和传递.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		700CBBA41B2FC98700705E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		700CBBA51B2FC98700705E56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		700CBBA71B2FC98700705E56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		700CBBA81B2FC98700705E56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		700CBBAA1B2FC98700705E56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		700CBBAB1B2FC98700705E56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		700CBBAE1B2FC98700705E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		700CBBB01B2FC98700705E56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		700CBBB31B2FC98700705E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		700CBBB91B2FC98700705E56 /* 04-事件的产生和传递Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04-事件的产生和传递Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		700CBBBE1B2FC98700705E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		700CBBBF1B2FC98700705E56 /* _4_________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_4_________Tests.m"; sourceTree = "<group>"; };
+		700CBBC91B2FCA1000705E56 /* WhiteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteView.h; sourceTree = "<group>"; };
+		700CBBCA1B2FCA1000705E56 /* WhiteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteView.m; sourceTree = "<group>"; };
+		700CBBCC1B2FCA3E00705E56 /* GreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenView.h; sourceTree = "<group>"; };
+		700CBBCD1B2FCA3E00705E56 /* GreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenView.m; sourceTree = "<group>"; };
+		700CBBCF1B2FCA5F00705E56 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		700CBBD01B2FCA5F00705E56 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		700CBBD21B2FCAED00705E56 /* OriView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriView.h; sourceTree = "<group>"; };
+		700CBBD31B2FCAED00705E56 /* OriView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OriView.m; sourceTree = "<group>"; };
+		700CBBD51B2FCAF500705E56 /* YellowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowView.h; sourceTree = "<group>"; };
+		700CBBD61B2FCAF500705E56 /* YellowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowView.m; sourceTree = "<group>"; };
+		700CBBD81B2FCAFB00705E56 /* BlueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueView.h; sourceTree = "<group>"; };
+		700CBBD91B2FCAFB00705E56 /* BlueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueView.m; sourceTree = "<group>"; };
+		700CBBDB1B2FCB1100705E56 /* RedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RedView.h; path = ../RedView.h; sourceTree = "<group>"; };
+		700CBBDC1B2FCB1100705E56 /* RedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RedView.m; path = ../RedView.m; sourceTree = "<group>"; };
+		BCCE9D891D72B3700083CBAE /* XJWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJWindow.h; sourceTree = "<group>"; };
+		BCCE9D8A1D72B3700083CBAE /* XJWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		700CBB9D1B2FC98700705E56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700CBBB61B2FC98700705E56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		700CBB971B2FC98700705E56 = {
+			isa = PBXGroup;
+			children = (
+				700CBBA21B2FC98700705E56 /* 04-事件的产生和传递 */,
+				700CBBBC1B2FC98700705E56 /* 04-事件的产生和传递Tests */,
+				700CBBA11B2FC98700705E56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		700CBBA11B2FC98700705E56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				700CBBA01B2FC98700705E56 /* 04-事件的产生和传递.app */,
+				700CBBB91B2FC98700705E56 /* 04-事件的产生和传递Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		700CBBA21B2FC98700705E56 /* 04-事件的产生和传递 */ = {
+			isa = PBXGroup;
+			children = (
+				BCCE9D891D72B3700083CBAE /* XJWindow.h */,
+				BCCE9D8A1D72B3700083CBAE /* XJWindow.m */,
+				700CBBDB1B2FCB1100705E56 /* RedView.h */,
+				700CBBDC1B2FCB1100705E56 /* RedView.m */,
+				700CBBA71B2FC98700705E56 /* AppDelegate.h */,
+				700CBBA81B2FC98700705E56 /* AppDelegate.m */,
+				700CBBAA1B2FC98700705E56 /* ViewController.h */,
+				700CBBAB1B2FC98700705E56 /* ViewController.m */,
+				700CBBAD1B2FC98700705E56 /* Main.storyboard */,
+				700CBBD51B2FCAF500705E56 /* YellowView.h */,
+				700CBBD61B2FCAF500705E56 /* YellowView.m */,
+				700CBBD81B2FCAFB00705E56 /* BlueView.h */,
+				700CBBD91B2FCAFB00705E56 /* BlueView.m */,
+				700CBBD21B2FCAED00705E56 /* OriView.h */,
+				700CBBD31B2FCAED00705E56 /* OriView.m */,
+				700CBBC91B2FCA1000705E56 /* WhiteView.h */,
+				700CBBCA1B2FCA1000705E56 /* WhiteView.m */,
+				700CBBCC1B2FCA3E00705E56 /* GreenView.h */,
+				700CBBCD1B2FCA3E00705E56 /* GreenView.m */,
+				700CBBCF1B2FCA5F00705E56 /* BaseView.h */,
+				700CBBD01B2FCA5F00705E56 /* BaseView.m */,
+				700CBBB01B2FC98700705E56 /* Images.xcassets */,
+				700CBBB21B2FC98700705E56 /* LaunchScreen.xib */,
+				700CBBA31B2FC98700705E56 /* Supporting Files */,
+			);
+			path = "04-事件的产生和传递";
+			sourceTree = "<group>";
+		};
+		700CBBA31B2FC98700705E56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				700CBBA41B2FC98700705E56 /* Info.plist */,
+				700CBBA51B2FC98700705E56 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		700CBBBC1B2FC98700705E56 /* 04-事件的产生和传递Tests */ = {
+			isa = PBXGroup;
+			children = (
+				700CBBBF1B2FC98700705E56 /* _4_________Tests.m */,
+				700CBBBD1B2FC98700705E56 /* Supporting Files */,
+			);
+			path = "04-事件的产生和传递Tests";
+			sourceTree = "<group>";
+		};
+		700CBBBD1B2FC98700705E56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				700CBBBE1B2FC98700705E56 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		700CBB9F1B2FC98700705E56 /* 04-事件的产生和传递 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 700CBBC31B2FC98700705E56 /* Build configuration list for PBXNativeTarget "04-事件的产生和传递" */;
+			buildPhases = (
+				700CBB9C1B2FC98700705E56 /* Sources */,
+				700CBB9D1B2FC98700705E56 /* Frameworks */,
+				700CBB9E1B2FC98700705E56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-事件的产生和传递";
+			productName = "04-事件的产生和传递";
+			productReference = 700CBBA01B2FC98700705E56 /* 04-事件的产生和传递.app */;
+			productType = "com.apple.product-type.application";
+		};
+		700CBBB81B2FC98700705E56 /* 04-事件的产生和传递Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 700CBBC61B2FC98700705E56 /* Build configuration list for PBXNativeTarget "04-事件的产生和传递Tests" */;
+			buildPhases = (
+				700CBBB51B2FC98700705E56 /* Sources */,
+				700CBBB61B2FC98700705E56 /* Frameworks */,
+				700CBBB71B2FC98700705E56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				700CBBBB1B2FC98700705E56 /* PBXTargetDependency */,
+			);
+			name = "04-事件的产生和传递Tests";
+			productName = "04-事件的产生和传递Tests";
+			productReference = 700CBBB91B2FC98700705E56 /* 04-事件的产生和传递Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		700CBB981B2FC98700705E56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = xiaomage;
+				TargetAttributes = {
+					700CBB9F1B2FC98700705E56 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					700CBBB81B2FC98700705E56 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 700CBB9F1B2FC98700705E56;
+					};
+				};
+			};
+			buildConfigurationList = 700CBB9B1B2FC98700705E56 /* Build configuration list for PBXProject "04-事件的产生和传递" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 700CBB971B2FC98700705E56;
+			productRefGroup = 700CBBA11B2FC98700705E56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				700CBB9F1B2FC98700705E56 /* 04-事件的产生和传递 */,
+				700CBBB81B2FC98700705E56 /* 04-事件的产生和传递Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		700CBB9E1B2FC98700705E56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700CBBAF1B2FC98700705E56 /* Main.storyboard in Resources */,
+				700CBBB41B2FC98700705E56 /* LaunchScreen.xib in Resources */,
+				700CBBB11B2FC98700705E56 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700CBBB71B2FC98700705E56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		700CBB9C1B2FC98700705E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700CBBAC1B2FC98700705E56 /* ViewController.m in Sources */,
+				700CBBD41B2FCAED00705E56 /* OriView.m in Sources */,
+				700CBBDA1B2FCAFB00705E56 /* BlueView.m in Sources */,
+				700CBBA91B2FC98700705E56 /* AppDelegate.m in Sources */,
+				700CBBCE1B2FCA3E00705E56 /* GreenView.m in Sources */,
+				700CBBCB1B2FCA1000705E56 /* WhiteView.m in Sources */,
+				700CBBA61B2FC98700705E56 /* main.m in Sources */,
+				700CBBD71B2FCAF500705E56 /* YellowView.m in Sources */,
+				700CBBDD1B2FCB1100705E56 /* RedView.m in Sources */,
+				BCCE9D8B1D72B3700083CBAE /* XJWindow.m in Sources */,
+				700CBBD11B2FCA5F00705E56 /* BaseView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700CBBB51B2FC98700705E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700CBBC01B2FC98700705E56 /* _4_________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		700CBBBB1B2FC98700705E56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 700CBB9F1B2FC98700705E56 /* 04-事件的产生和传递 */;
+			targetProxy = 700CBBBA1B2FC98700705E56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		700CBBAD1B2FC98700705E56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				700CBBAE1B2FC98700705E56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		700CBBB21B2FC98700705E56 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				700CBBB31B2FC98700705E56 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		700CBBC11B2FC98700705E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		700CBBC21B2FC98700705E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		700CBBC41B2FC98700705E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "04-事件的产生和传递/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		700CBBC51B2FC98700705E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "04-事件的产生和传递/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		700CBBC71B2FC98700705E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "04-事件的产生和传递Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04-事件的产生和传递.app/04-事件的产生和传递";
+			};
+			name = Debug;
+		};
+		700CBBC81B2FC98700705E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "04-事件的产生和传递Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04-事件的产生和传递.app/04-事件的产生和传递";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		700CBB9B1B2FC98700705E56 /* Build configuration list for PBXProject "04-事件的产生和传递" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700CBBC11B2FC98700705E56 /* Debug */,
+				700CBBC21B2FC98700705E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		700CBBC31B2FC98700705E56 /* Build configuration list for PBXNativeTarget "04-事件的产生和传递" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700CBBC41B2FC98700705E56 /* Debug */,
+				700CBBC51B2FC98700705E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		700CBBC61B2FC98700705E56 /* Build configuration list for PBXNativeTarget "04-事件的产生和传递Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700CBBC71B2FC98700705E56 /* Debug */,
+				700CBBC81B2FC98700705E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 700CBB981B2FC98700705E56 /* Project object */;
+}
