@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC68B50C1D72F1020060512D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68B50B1D72F1020060512D /* main.m */; };
+		BC68B50F1D72F1020060512D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68B50E1D72F1020060512D /* AppDelegate.m */; };
+		BC68B5121D72F1020060512D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68B5111D72F1020060512D /* ViewController.m */; };
+		BC68B5151D72F1020060512D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC68B5131D72F1020060512D /* Main.storyboard */; };
+		BC68B5171D72F1020060512D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC68B5161D72F1020060512D /* Assets.xcassets */; };
+		BC68B51A1D72F1020060512D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC68B5181D72F1020060512D /* LaunchScreen.storyboard */; };
+		BC68B5251D72F1020060512D /* UI___11__________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68B5241D72F1020060512D /* UI___11__________Tests.m */; };
+		BC68B5301D72F1030060512D /* UI___11__________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68B52F1D72F1030060512D /* UI___11__________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC68B5211D72F1020060512D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC68B4FF1D72F1020060512D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC68B5061D72F1020060512D;
+			remoteInfo = "UI进阶-11-手势识别的简单使用";
+		};
+		BC68B52C1D72F1030060512D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC68B4FF1D72F1020060512D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC68B5061D72F1020060512D;
+			remoteInfo = "UI进阶-11-手势识别的简单使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC68B5071D72F1020060512D /* UI进阶-11-手势识别的简单使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI进阶-11-手势识别的简单使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC68B50B1D72F1020060512D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC68B50D1D72F1020060512D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC68B50E1D72F1020060512D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC68B5101D72F1020060512D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC68B5111D72F1020060512D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC68B5141D72F1020060512D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC68B5161D72F1020060512D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC68B5191D72F1020060512D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC68B51B1D72F1020060512D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC68B5201D72F1020060512D /* UI进阶-11-手势识别的简单使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI进阶-11-手势识别的简单使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC68B5241D72F1020060512D /* UI___11__________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI___11__________Tests.m"; sourceTree = "<group>"; };
+		BC68B5261D72F1020060512D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC68B52B1D72F1030060512D /* UI进阶-11-手势识别的简单使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI进阶-11-手势识别的简单使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC68B52F1D72F1030060512D /* UI___11__________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI___11__________UITests.m"; sourceTree = "<group>"; };
+		BC68B5311D72F1030060512D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC68B5041D72F1020060512D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC68B51D1D72F1020060512D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC68B5281D72F1020060512D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC68B4FE1D72F1020060512D = {
+			isa = PBXGroup;
+			children = (
+				BC68B5091D72F1020060512D /* UI进阶-11-手势识别的简单使用 */,
+				BC68B5231D72F1020060512D /* UI进阶-11-手势识别的简单使用Tests */,
+				BC68B52E1D72F1030060512D /* UI进阶-11-手势识别的简单使用UITests */,
+				BC68B5081D72F1020060512D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC68B5081D72F1020060512D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC68B5071D72F1020060512D /* UI进阶-11-手势识别的简单使用.app */,
+				BC68B5201D72F1020060512D /* UI进阶-11-手势识别的简单使用Tests.xctest */,
+				BC68B52B1D72F1030060512D /* UI进阶-11-手势识别的简单使用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC68B5091D72F1020060512D /* UI进阶-11-手势识别的简单使用 */ = {
+			isa = PBXGroup;
+			children = (
+				BC68B50D1D72F1020060512D /* AppDelegate.h */,
+				BC68B50E1D72F1020060512D /* AppDelegate.m */,
+				BC68B5101D72F1020060512D /* ViewController.h */,
+				BC68B5111D72F1020060512D /* ViewController.m */,
+				BC68B5131D72F1020060512D /* Main.storyboard */,
+				BC68B5161D72F1020060512D /* Assets.xcassets */,
+				BC68B5181D72F1020060512D /* LaunchScreen.storyboard */,
+				BC68B51B1D72F1020060512D /* Info.plist */,
+				BC68B50A1D72F1020060512D /* Supporting Files */,
+			);
+			path = "UI进阶-11-手势识别的简单使用";
+			sourceTree = "<group>";
+		};
+		BC68B50A1D72F1020060512D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC68B50B1D72F1020060512D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC68B5231D72F1020060512D /* UI进阶-11-手势识别的简单使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BC68B5241D72F1020060512D /* UI___11__________Tests.m */,
+				BC68B5261D72F1020060512D /* Info.plist */,
+			);
+			path = "UI进阶-11-手势识别的简单使用Tests";
+			sourceTree = "<group>";
+		};
+		BC68B52E1D72F1030060512D /* UI进阶-11-手势识别的简单使用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC68B52F1D72F1030060512D /* UI___11__________UITests.m */,
+				BC68B5311D72F1030060512D /* Info.plist */,
+			);
+			path = "UI进阶-11-手势识别的简单使用UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC68B5061D72F1020060512D /* UI进阶-11-手势识别的简单使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC68B5341D72F1030060512D /* Build configuration list for PBXNativeTarget "UI进阶-11-手势识别的简单使用" */;
+			buildPhases = (
+				BC68B5031D72F1020060512D /* Sources */,
+				BC68B5041D72F1020060512D /* Frameworks */,
+				BC68B5051D72F1020060512D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UI进阶-11-手势识别的简单使用";
+			productName = "UI进阶-11-手势识别的简单使用";
+			productReference = BC68B5071D72F1020060512D /* UI进阶-11-手势识别的简单使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC68B51F1D72F1020060512D /* UI进阶-11-手势识别的简单使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC68B5371D72F1030060512D /* Build configuration list for PBXNativeTarget "UI进阶-11-手势识别的简单使用Tests" */;
+			buildPhases = (
+				BC68B51C1D72F1020060512D /* Sources */,
+				BC68B51D1D72F1020060512D /* Frameworks */,
+				BC68B51E1D72F1020060512D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC68B5221D72F1020060512D /* PBXTargetDependency */,
+			);
+			name = "UI进阶-11-手势识别的简单使用Tests";
+			productName = "UI进阶-11-手势识别的简单使用Tests";
+			productReference = BC68B5201D72F1020060512D /* UI进阶-11-手势识别的简单使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC68B52A1D72F1020060512D /* UI进阶-11-手势识别的简单使用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC68B53A1D72F1030060512D /* Build configuration list for PBXNativeTarget "UI进阶-11-手势识别的简单使用UITests" */;
+			buildPhases = (
+				BC68B5271D72F1020060512D /* Sources */,
+				BC68B5281D72F1020060512D /* Frameworks */,
+				BC68B5291D72F1020060512D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC68B52D1D72F1030060512D /* PBXTargetDependency */,
+			);
+			name = "UI进阶-11-手势识别的简单使用UITests";
+			productName = "UI进阶-11-手势识别的简单使用UITests";
+			productReference = BC68B52B1D72F1030060512D /* UI进阶-11-手势识别的简单使用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC68B4FF1D72F1020060512D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = liser;
+				TargetAttributes = {
+					BC68B5061D72F1020060512D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BC68B51F1D72F1020060512D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BC68B5061D72F1020060512D;
+					};
+					BC68B52A1D72F1020060512D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BC68B5061D72F1020060512D;
+					};
+				};
+			};
+			buildConfigurationList = BC68B5021D72F1020060512D /* Build configuration list for PBXProject "UI进阶-11-手势识别的简单使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC68B4FE1D72F1020060512D;
+			productRefGroup = BC68B5081D72F1020060512D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC68B5061D72F1020060512D /* UI进阶-11-手势识别的简单使用 */,
+				BC68B51F1D72F1020060512D /* UI进阶-11-手势识别的简单使用Tests */,
+				BC68B52A1D72F1020060512D /* UI进阶-11-手势识别的简单使用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC68B5051D72F1020060512D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC68B51A1D72F1020060512D /* LaunchScreen.storyboard in Resources */,
+				BC68B5171D72F1020060512D /* Assets.xcassets in Resources */,
+				BC68B5151D72F1020060512D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC68B51E1D72F1020060512D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC68B5291D72F1020060512D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC68B5031D72F1020060512D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC68B5121D72F1020060512D /* ViewController.m in Sources */,
+				BC68B50F1D72F1020060512D /* AppDelegate.m in Sources */,
+				BC68B50C1D72F1020060512D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC68B51C1D72F1020060512D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC68B5251D72F1020060512D /* UI___11__________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC68B5271D72F1020060512D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC68B5301D72F1030060512D /* UI___11__________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC68B5221D72F1020060512D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC68B5061D72F1020060512D /* UI进阶-11-手势识别的简单使用 */;
+			targetProxy = BC68B5211D72F1020060512D /* PBXContainerItemProxy */;
+		};
+		BC68B52D1D72F1030060512D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC68B5061D72F1020060512D /* UI进阶-11-手势识别的简单使用 */;
+			targetProxy = BC68B52C1D72F1030060512D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC68B5131D72F1020060512D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC68B5141D72F1020060512D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC68B5181D72F1020060512D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC68B5191D72F1020060512D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC68B5321D72F1030060512D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC68B5331D72F1030060512D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC68B5351D72F1030060512D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UI进阶-11-手势识别的简单使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---11----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC68B5361D72F1030060512D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UI进阶-11-手势识别的简单使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---11----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC68B5381D72F1030060512D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI进阶-11-手势识别的简单使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---11----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI进阶-11-手势识别的简单使用.app/UI进阶-11-手势识别的简单使用";
+			};
+			name = Debug;
+		};
+		BC68B5391D72F1030060512D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI进阶-11-手势识别的简单使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---11----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI进阶-11-手势识别的简单使用.app/UI进阶-11-手势识别的简单使用";
+			};
+			name = Release;
+		};
+		BC68B53B1D72F1030060512D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI进阶-11-手势识别的简单使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---11----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI进阶-11-手势识别的简单使用";
+			};
+			name = Debug;
+		};
+		BC68B53C1D72F1030060512D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI进阶-11-手势识别的简单使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---11----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI进阶-11-手势识别的简单使用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC68B5021D72F1020060512D /* Build configuration list for PBXProject "UI进阶-11-手势识别的简单使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC68B5321D72F1030060512D /* Debug */,
+				BC68B5331D72F1030060512D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC68B5341D72F1030060512D /* Build configuration list for PBXNativeTarget "UI进阶-11-手势识别的简单使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC68B5351D72F1030060512D /* Debug */,
+				BC68B5361D72F1030060512D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC68B5371D72F1030060512D /* Build configuration list for PBXNativeTarget "UI进阶-11-手势识别的简单使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC68B5381D72F1030060512D /* Debug */,
+				BC68B5391D72F1030060512D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC68B53A1D72F1030060512D /* Build configuration list for PBXNativeTarget "UI进阶-11-手势识别的简单使用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC68B53B1D72F1030060512D /* Debug */,
+				BC68B53C1D72F1030060512D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC68B4FF1D72F1020060512D /* Project object */;
+}
