@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC9653A01D7AE3DC00FAC51B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC96539F1D7AE3DC00FAC51B /* main.m */; };
+		BC9653A31D7AE3DC00FAC51B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9653A21D7AE3DC00FAC51B /* AppDelegate.m */; };
+		BC9653A61D7AE3DC00FAC51B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9653A51D7AE3DC00FAC51B /* ViewController.m */; };
+		BC9653A91D7AE3DC00FAC51B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9653A71D7AE3DC00FAC51B /* Main.storyboard */; };
+		BC9653AB1D7AE3DC00FAC51B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC9653AA1D7AE3DC00FAC51B /* Assets.xcassets */; };
+		BC9653AE1D7AE3DC00FAC51B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9653AC1D7AE3DC00FAC51B /* LaunchScreen.storyboard */; };
+		BC9653B91D7AE3DC00FAC51B /* UI___07_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9653B81D7AE3DC00FAC51B /* UI___07_____Tests.m */; };
+		BC9653C41D7AE3DC00FAC51B /* UI___07_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9653C31D7AE3DC00FAC51B /* UI___07_____UITests.m */; };
+		BC9653D31D7AE4FE00FAC51B /* lockView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9653D21D7AE4FE00FAC51B /* lockView.m */; };
+		BC9653D61D7AEB3400FAC51B /* VCView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9653D51D7AEB3400FAC51B /* VCView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC9653B51D7AE3DC00FAC51B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC9653931D7AE3DC00FAC51B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC96539A1D7AE3DC00FAC51B;
+			remoteInfo = "UI进阶-07-手势解锁";
+		};
+		BC9653C01D7AE3DC00FAC51B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC9653931D7AE3DC00FAC51B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC96539A1D7AE3DC00FAC51B;
+			remoteInfo = "UI进阶-07-手势解锁";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC96539B1D7AE3DC00FAC51B /* UI进阶-07-手势解锁.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI进阶-07-手势解锁.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC96539F1D7AE3DC00FAC51B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC9653A11D7AE3DC00FAC51B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC9653A21D7AE3DC00FAC51B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC9653A41D7AE3DC00FAC51B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC9653A51D7AE3DC00FAC51B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC9653A81D7AE3DC00FAC51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC9653AA1D7AE3DC00FAC51B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC9653AD1D7AE3DC00FAC51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC9653AF1D7AE3DC00FAC51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC9653B41D7AE3DC00FAC51B /* UI进阶-07-手势解锁Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI进阶-07-手势解锁Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC9653B81D7AE3DC00FAC51B /* UI___07_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI___07_____Tests.m"; sourceTree = "<group>"; };
+		BC9653BA1D7AE3DC00FAC51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC9653BF1D7AE3DC00FAC51B /* UI进阶-07-手势解锁UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI进阶-07-手势解锁UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC9653C31D7AE3DC00FAC51B /* UI___07_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI___07_____UITests.m"; sourceTree = "<group>"; };
+		BC9653C51D7AE3DC00FAC51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC9653D11D7AE4FE00FAC51B /* lockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lockView.h; sourceTree = "<group>"; };
+		BC9653D21D7AE4FE00FAC51B /* lockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lockView.m; sourceTree = "<group>"; };
+		BC9653D41D7AEB3400FAC51B /* VCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCView.h; sourceTree = "<group>"; };
+		BC9653D51D7AEB3400FAC51B /* VCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC9653981D7AE3DC00FAC51B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9653B11D7AE3DC00FAC51B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9653BC1D7AE3DC00FAC51B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC9653921D7AE3DC00FAC51B = {
+			isa = PBXGroup;
+			children = (
+				BC96539D1D7AE3DC00FAC51B /* UI进阶-07-手势解锁 */,
+				BC9653B71D7AE3DC00FAC51B /* UI进阶-07-手势解锁Tests */,
+				BC9653C21D7AE3DC00FAC51B /* UI进阶-07-手势解锁UITests */,
+				BC96539C1D7AE3DC00FAC51B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC96539C1D7AE3DC00FAC51B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC96539B1D7AE3DC00FAC51B /* UI进阶-07-手势解锁.app */,
+				BC9653B41D7AE3DC00FAC51B /* UI进阶-07-手势解锁Tests.xctest */,
+				BC9653BF1D7AE3DC00FAC51B /* UI进阶-07-手势解锁UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC96539D1D7AE3DC00FAC51B /* UI进阶-07-手势解锁 */ = {
+			isa = PBXGroup;
+			children = (
+				BC9653A11D7AE3DC00FAC51B /* AppDelegate.h */,
+				BC9653A21D7AE3DC00FAC51B /* AppDelegate.m */,
+				BC9653A41D7AE3DC00FAC51B /* ViewController.h */,
+				BC9653A51D7AE3DC00FAC51B /* ViewController.m */,
+				BC9653D11D7AE4FE00FAC51B /* lockView.h */,
+				BC9653D21D7AE4FE00FAC51B /* lockView.m */,
+				BC9653D41D7AEB3400FAC51B /* VCView.h */,
+				BC9653D51D7AEB3400FAC51B /* VCView.m */,
+				BC9653A71D7AE3DC00FAC51B /* Main.storyboard */,
+				BC9653AA1D7AE3DC00FAC51B /* Assets.xcassets */,
+				BC9653AC1D7AE3DC00FAC51B /* LaunchScreen.storyboard */,
+				BC9653AF1D7AE3DC00FAC51B /* Info.plist */,
+				BC96539E1D7AE3DC00FAC51B /* Supporting Files */,
+			);
+			path = "UI进阶-07-手势解锁";
+			sourceTree = "<group>";
+		};
+		BC96539E1D7AE3DC00FAC51B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC96539F1D7AE3DC00FAC51B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC9653B71D7AE3DC00FAC51B /* UI进阶-07-手势解锁Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BC9653B81D7AE3DC00FAC51B /* UI___07_____Tests.m */,
+				BC9653BA1D7AE3DC00FAC51B /* Info.plist */,
+			);
+			path = "UI进阶-07-手势解锁Tests";
+			sourceTree = "<group>";
+		};
+		BC9653C21D7AE3DC00FAC51B /* UI进阶-07-手势解锁UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC9653C31D7AE3DC00FAC51B /* UI___07_____UITests.m */,
+				BC9653C51D7AE3DC00FAC51B /* Info.plist */,
+			);
+			path = "UI进阶-07-手势解锁UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC96539A1D7AE3DC00FAC51B /* UI进阶-07-手势解锁 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC9653C81D7AE3DC00FAC51B /* Build configuration list for PBXNativeTarget "UI进阶-07-手势解锁" */;
+			buildPhases = (
+				BC9653971D7AE3DC00FAC51B /* Sources */,
+				BC9653981D7AE3DC00FAC51B /* Frameworks */,
+				BC9653991D7AE3DC00FAC51B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UI进阶-07-手势解锁";
+			productName = "UI进阶-07-手势解锁";
+			productReference = BC96539B1D7AE3DC00FAC51B /* UI进阶-07-手势解锁.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC9653B31D7AE3DC00FAC51B /* UI进阶-07-手势解锁Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC9653CB1D7AE3DC00FAC51B /* Build configuration list for PBXNativeTarget "UI进阶-07-手势解锁Tests" */;
+			buildPhases = (
+				BC9653B01D7AE3DC00FAC51B /* Sources */,
+				BC9653B11D7AE3DC00FAC51B /* Frameworks */,
+				BC9653B21D7AE3DC00FAC51B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC9653B61D7AE3DC00FAC51B /* PBXTargetDependency */,
+			);
+			name = "UI进阶-07-手势解锁Tests";
+			productName = "UI进阶-07-手势解锁Tests";
+			productReference = BC9653B41D7AE3DC00FAC51B /* UI进阶-07-手势解锁Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC9653BE1D7AE3DC00FAC51B /* UI进阶-07-手势解锁UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC9653CE1D7AE3DC00FAC51B /* Build configuration list for PBXNativeTarget "UI进阶-07-手势解锁UITests" */;
+			buildPhases = (
+				BC9653BB1D7AE3DC00FAC51B /* Sources */,
+				BC9653BC1D7AE3DC00FAC51B /* Frameworks */,
+				BC9653BD1D7AE3DC00FAC51B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC9653C11D7AE3DC00FAC51B /* PBXTargetDependency */,
+			);
+			name = "UI进阶-07-手势解锁UITests";
+			productName = "UI进阶-07-手势解锁UITests";
+			productReference = BC9653BF1D7AE3DC00FAC51B /* UI进阶-07-手势解锁UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC9653931D7AE3DC00FAC51B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = liser;
+				TargetAttributes = {
+					BC96539A1D7AE3DC00FAC51B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BC9653B31D7AE3DC00FAC51B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BC96539A1D7AE3DC00FAC51B;
+					};
+					BC9653BE1D7AE3DC00FAC51B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BC96539A1D7AE3DC00FAC51B;
+					};
+				};
+			};
+			buildConfigurationList = BC9653961D7AE3DC00FAC51B /* Build configuration list for PBXProject "UI进阶-07-手势解锁" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC9653921D7AE3DC00FAC51B;
+			productRefGroup = BC96539C1D7AE3DC00FAC51B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC96539A1D7AE3DC00FAC51B /* UI进阶-07-手势解锁 */,
+				BC9653B31D7AE3DC00FAC51B /* UI进阶-07-手势解锁Tests */,
+				BC9653BE1D7AE3DC00FAC51B /* UI进阶-07-手势解锁UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC9653991D7AE3DC00FAC51B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9653AE1D7AE3DC00FAC51B /* LaunchScreen.storyboard in Resources */,
+				BC9653AB1D7AE3DC00FAC51B /* Assets.xcassets in Resources */,
+				BC9653A91D7AE3DC00FAC51B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9653B21D7AE3DC00FAC51B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9653BD1D7AE3DC00FAC51B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC9653971D7AE3DC00FAC51B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9653A61D7AE3DC00FAC51B /* ViewController.m in Sources */,
+				BC9653D31D7AE4FE00FAC51B /* lockView.m in Sources */,
+				BC9653A31D7AE3DC00FAC51B /* AppDelegate.m in Sources */,
+				BC9653A01D7AE3DC00FAC51B /* main.m in Sources */,
+				BC9653D61D7AEB3400FAC51B /* VCView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9653B01D7AE3DC00FAC51B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9653B91D7AE3DC00FAC51B /* UI___07_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9653BB1D7AE3DC00FAC51B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9653C41D7AE3DC00FAC51B /* UI___07_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC9653B61D7AE3DC00FAC51B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC96539A1D7AE3DC00FAC51B /* UI进阶-07-手势解锁 */;
+			targetProxy = BC9653B51D7AE3DC00FAC51B /* PBXContainerItemProxy */;
+		};
+		BC9653C11D7AE3DC00FAC51B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC96539A1D7AE3DC00FAC51B /* UI进阶-07-手势解锁 */;
+			targetProxy = BC9653C01D7AE3DC00FAC51B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC9653A71D7AE3DC00FAC51B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC9653A81D7AE3DC00FAC51B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC9653AC1D7AE3DC00FAC51B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC9653AD1D7AE3DC00FAC51B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC9653C61D7AE3DC00FAC51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC9653C71D7AE3DC00FAC51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC9653C91D7AE3DC00FAC51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UI进阶-07-手势解锁/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---07-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC9653CA1D7AE3DC00FAC51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UI进阶-07-手势解锁/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---07-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC9653CC1D7AE3DC00FAC51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI进阶-07-手势解锁Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---07-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI进阶-07-手势解锁.app/UI进阶-07-手势解锁";
+			};
+			name = Debug;
+		};
+		BC9653CD1D7AE3DC00FAC51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI进阶-07-手势解锁Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---07-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI进阶-07-手势解锁.app/UI进阶-07-手势解锁";
+			};
+			name = Release;
+		};
+		BC9653CF1D7AE3DC00FAC51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI进阶-07-手势解锁UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---07-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI进阶-07-手势解锁";
+			};
+			name = Debug;
+		};
+		BC9653D01D7AE3DC00FAC51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI进阶-07-手势解锁UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UI---07-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI进阶-07-手势解锁";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC9653961D7AE3DC00FAC51B /* Build configuration list for PBXProject "UI进阶-07-手势解锁" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9653C61D7AE3DC00FAC51B /* Debug */,
+				BC9653C71D7AE3DC00FAC51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC9653C81D7AE3DC00FAC51B /* Build configuration list for PBXNativeTarget "UI进阶-07-手势解锁" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9653C91D7AE3DC00FAC51B /* Debug */,
+				BC9653CA1D7AE3DC00FAC51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC9653CB1D7AE3DC00FAC51B /* Build configuration list for PBXNativeTarget "UI进阶-07-手势解锁Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9653CC1D7AE3DC00FAC51B /* Debug */,
+				BC9653CD1D7AE3DC00FAC51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC9653CE1D7AE3DC00FAC51B /* Build configuration list for PBXNativeTarget "UI进阶-07-手势解锁UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9653CF1D7AE3DC00FAC51B /* Debug */,
+				BC9653D01D7AE3DC00FAC51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC9653931D7AE3DC00FAC51B /* Project object */;
+}
