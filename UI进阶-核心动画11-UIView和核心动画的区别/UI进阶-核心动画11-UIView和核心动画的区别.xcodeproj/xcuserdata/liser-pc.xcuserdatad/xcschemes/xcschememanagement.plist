@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>UI进阶-核心动画11-UIView和核心动画的区别.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>BCC72E061D7D7F70007A66C6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BCC72E1F1D7D7F71007A66C6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BCC72E2A1D7D7F71007A66C6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
